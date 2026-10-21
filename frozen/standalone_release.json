@@ -1,0 +1,51 @@
+{
+  "repository": "https://github.com/flageval-baai/MeasureBench",
+  "commit": "d5bb8652dbde6b1b5507f89d37f73993af28b830",
+  "retrieved_utc_date": "2026-08-15",
+  "schema": "evalgauge-standalone-release-v1",
+  "files": [
+    {
+      "path": "evaluation/evaluate.py",
+      "bytes": 1502,
+      "sha256": "45f066d187c43cfb667c4e5a6ab5fabba01fdeddacb95921d9c2e218e02a6c10"
+    },
+    {
+      "path": "evaluation/measure_bench_evaluator.py",
+      "bytes": 18033,
+      "sha256": "88a4559080910a11c18e70374a776b01281396739b674515af5e86b5552e4f71"
+    },
+    {
+      "path": "result_example/gemini-2.5-pro_real.json",
+      "bytes": 3636076,
+      "sha256": "6e54ef76b8ebddeaeb170ad9ecaf8b60394ffd5cae270ac34b9ad2206381bd33",
+      "model": "Gemini-2.5-Pro",
+      "split": "real_world",
+      "rows": 1272
+    },
+    {
+      "path": "result_example/gemini-2.5-pro_syth.json",
+      "bytes": 3542181,
+      "sha256": "540a1e3a99dd7702fcdd2dd9dcd062cf01dd85f880e8efd3fd88b0691748e435",
+      "model": "Gemini-2.5-Pro",
+      "split": "synthetic_test",
+      "rows": 1170
+    },
+    {
+      "path": "result_example/gpt-5_real.json",
+      "bytes": 3328510,
+      "sha256": "a8155fc844aa9f93c100a63937516bf46aa45e94fbeb87402e354d3e57e0b9d1",
+      "model": "GPT-5",
+      "split": "real_world",
+      "rows": 1272
+    },
+    {
+      "path": "result_example/gpt-5_syth.json",
+      "bytes": 3265596,
+      "sha256": "e5570e186cf538cc98cefd2436399ef52f84257c283bf33f17a53a9bba587814",
+      "model": "GPT-5",
+      "split": "synthetic_test",
+      "rows": 1170
+    }
+  ],
+  "redistribution_note": "The fetch script retrieves public upstream files by immutable commit. Raw prediction files are not required in the submission artifact; derived score tables retain source hashes and question identifiers."
+}

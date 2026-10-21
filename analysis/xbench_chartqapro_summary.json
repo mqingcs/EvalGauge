@@ -1,0 +1,172 @@
+{
+  "benchmark": "ChartQAPro",
+  "compiled_row_coverage": 1.0,
+  "compiled_rows": 1948,
+  "exact_match_control_flow": {
+    "repository": {
+      "computed": true,
+      "forwarded": false
+    },
+    "vlmevalkit": {
+      "computed": true,
+      "forwarded": false
+    }
+  },
+  "exact_type_rows": 522,
+  "exact_type_suffix_nonzero_credit": 292,
+  "frozen_sources": {
+    "chartqapro_repository_commit": "4b422c658270aff1d3105fd0fb39b1dd5de9f08c",
+    "compact_metadata_sha256": "7912e3bf9e40abebbd5f384cc98c6312e4bd0f7f0f19f57b53af827f4ef23f0c",
+    "dataset_commit": "e27c2874825874d6767d2bbc538ed4f0dc2c64c2",
+    "full_parquet_sha256": "feb03a5579e49114b45350b75aed7f674e285f795a425c83e22f400095c91489",
+    "repository_evaluator_sha256": "fe21d33f076a394765935b6231c2b918c321d4d197d618374ab2ab6b2cc96a71",
+    "vlmevalkit_commit": "fd09032341aed9f1e85b761745154299e13f50c0",
+    "vlmevalkit_evaluator_sha256": "9bfa75feb8c70341f788a7d85095df9a18cca08c04a7ab793d802b66afd2db83"
+  },
+  "generated_cases": 9093,
+  "invalid_full_credit_rate": 0.0,
+  "invalid_nonzero_credit_rate": 0.23974763406940064,
+  "malformed_numeric_suffix_nonzero_credit": 452,
+  "negative_cases": 3170,
+  "numeric_rows": 657,
+  "positive_cases": 5923,
+  "positive_full_conformance": 0.9918959986493331,
+  "public_rows": 1948,
+  "question_type_counts": {
+    "Conversational": 311,
+    "Fact Checking": 244,
+    "Factoid": 1081,
+    "Hypothetical": 98,
+    "Multi Choice": 214
+  },
+  "reference_suite_conformance": 1.0,
+  "relation_summary": [
+    {
+      "affected_rows": 522,
+      "case_count": 522,
+      "case_kind": "negative",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.5593869731800766,
+      "official_failures": 292,
+      "relation_id": "XMR-N-EXACT-SUFFIX"
+    },
+    {
+      "affected_rows": 650,
+      "case_count": 650,
+      "case_kind": "negative",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.0,
+      "official_failures": 0,
+      "relation_id": "XMR-N-FACTOR10"
+    },
+    {
+      "affected_rows": 19,
+      "case_count": 19,
+      "case_kind": "negative",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.7368421052631579,
+      "official_failures": 14,
+      "relation_id": "XMR-N-LIST-EXTRA"
+    },
+    {
+      "affected_rows": 15,
+      "case_count": 15,
+      "case_kind": "negative",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.13333333333333333,
+      "official_failures": 2,
+      "relation_id": "XMR-N-LIST-PERMUTATION"
+    },
+    {
+      "affected_rows": 657,
+      "case_count": 657,
+      "case_kind": "negative",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.0,
+      "official_failures": 0,
+      "relation_id": "XMR-N-NONFINITE"
+    },
+    {
+      "affected_rows": 657,
+      "case_count": 657,
+      "case_kind": "negative",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.6879756468797564,
+      "official_failures": 452,
+      "relation_id": "XMR-N-NUMERIC-SUFFIX"
+    },
+    {
+      "affected_rows": 650,
+      "case_count": 650,
+      "case_kind": "negative",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.0,
+      "official_failures": 0,
+      "relation_id": "XMR-N-TOLERANCE"
+    },
+    {
+      "affected_rows": 1192,
+      "case_count": 1192,
+      "case_kind": "positive",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.010067114093959731,
+      "official_failures": 12,
+      "relation_id": "XMR-P-CASE"
+    },
+    {
+      "affected_rows": 19,
+      "case_count": 19,
+      "case_kind": "positive",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.631578947368421,
+      "official_failures": 12,
+      "relation_id": "XMR-P-LIST-SERIALIZATION"
+    },
+    {
+      "affected_rows": 657,
+      "case_count": 657,
+      "case_kind": "positive",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.0,
+      "official_failures": 0,
+      "relation_id": "XMR-P-NUMERIC-FORM"
+    },
+    {
+      "affected_rows": 159,
+      "case_count": 159,
+      "case_kind": "positive",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.0,
+      "official_failures": 0,
+      "relation_id": "XMR-P-PERCENT-POLICY"
+    },
+    {
+      "affected_rows": 1948,
+      "case_count": 1948,
+      "case_kind": "positive",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.006160164271047228,
+      "official_failures": 12,
+      "relation_id": "XMR-P-PUNCT"
+    },
+    {
+      "affected_rows": 1948,
+      "case_count": 1948,
+      "case_kind": "source",
+      "full_invalid_accepts": 0,
+      "official_failure_rate": 0.006160164271047228,
+      "official_failures": 12,
+      "relation_id": "XMR-SOURCE"
+    }
+  ],
+  "schema": "evalgauge-xbench-chartqapro-v1",
+  "semantic_type_counts": {
+    "exact": 522,
+    "ordered_list": 19,
+    "scalar_numeric": 657,
+    "text_anls": 750
+  },
+  "source_witness_full_acceptance": 0.9938398357289527,
+  "upstream_parity_executions": 18186,
+  "upstream_parity_mismatches": 0
+}

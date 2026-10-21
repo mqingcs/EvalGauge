@@ -1,0 +1,7 @@
+{
+  "exact_row_answer_conflicts": 0,
+  "interpretation": "A conflict means the same normalized (row_id, answer) was generated as both semantics-preserving and contract-breaking.",
+  "negative_cases": 37212,
+  "normalized_row_answer_conflicts": 0,
+  "positive_cases": 44566
+}

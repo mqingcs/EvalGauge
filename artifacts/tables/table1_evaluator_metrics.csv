@@ -1,0 +1,4 @@
+affected_rows,canonical_contract_acceptance_rate,contract_violation_coverage,evaluator,false_acceptance_rate,false_rejection_rate,gold_self_consistency_rate,metamorphic_invariance_rate,positive_acceptance_rate
+2442,0.8465535157603048,1.0,official,0.07019241105019886,0.2603329892743347,0.9612054035330794,0.8547547457703182,0.7396670107256653
+2442,0.8514028403186699,1.0,repaired,0.07024615715360637,0.2119553022483508,0.9660547280914444,0.8994300587892116,0.7880446977516492
+0,1.0,0.0,type-safe,0.0,0.0,1.0,1.0,1.0

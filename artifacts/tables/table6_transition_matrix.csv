@@ -1,0 +1,7 @@
+canonical_cases,class,negative_cases,positive_cases,total,transition
+0,stable_rejection,34598,0,34598,000
+429,both_legacy_false_rejection,0,9446,9875,001
+0,repaired_over_acceptance,2,0,2,010
+14,official_false_rejection,0,2156,2170,011
+0,shared_false_acceptance,2612,0,2612,110
+2444,stable_acceptance,0,32964,35408,111

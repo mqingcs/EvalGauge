@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q",
+    "--hypothesis-seed=20260815",
+    "tests/test_property_based.py"
+  ],
+  "exit_code": 0,
+  "fuzz_examples": 550,
+  "property_tests": 3,
+  "seed": 20260815,
+  "stderr": "",
+  "stdout": "...                                                                      [100%]\n3 passed in 0.52s\n",
+  "timestamp_utc": "2026-08-15T17:20:40.159079+00:00"
+}

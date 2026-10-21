@@ -1,0 +1,45 @@
+{
+  "frozen_evaluator_file": "measure_bench_evaluator.py",
+  "frozen_release": {
+    "commit": "fef27ec696c532d12f0db389bcbbf79eab0e4c41",
+    "path": "vendor/FlagEvalMM/tasks/measure_bench/measure_bench_evaluator.py",
+    "sha256": "24b9df1525d41bbea2e1065b1eb6e375867ec3ddbdb11211e7ba1c5f13df9e55"
+  },
+  "mismatch_examples": [],
+  "schema": "evalgauge-upstream-parity-v1",
+  "standalone_evaluator_file": "measure_bench_evaluator.py",
+  "standalone_release": {
+    "commit": "d5bb8652dbde6b1b5507f89d37f73993af28b830",
+    "repository": "https://github.com/flageval-baai/MeasureBench",
+    "sha256": "88a4559080910a11c18e70374a776b01281396739b674515af5e86b5552e4f71"
+  },
+  "suite_summaries": [
+    {
+      "executions": 2887,
+      "mismatches": 0,
+      "suite": "canonical"
+    },
+    {
+      "executions": 2887,
+      "mismatches": 0,
+      "suite": "source_witness"
+    },
+    {
+      "executions": 44566,
+      "mismatches": 0,
+      "suite": "positive"
+    },
+    {
+      "executions": 37212,
+      "mismatches": 0,
+      "suite": "negative"
+    },
+    {
+      "executions": 637,
+      "mismatches": 0,
+      "suite": "historical_model"
+    }
+  ],
+  "total_executions": 88189,
+  "total_mismatches": 0
+}

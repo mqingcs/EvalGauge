@@ -1,0 +1,818 @@
+{
+  "%": {
+    "aliases": [
+      "%",
+      "percent",
+      "percentage",
+      "% rh",
+      "%rh",
+      "% relative humidity",
+      "% relative feuchte",
+      "% r.f.",
+      "% humidity",
+      "% rel.",
+      "r h",
+      "humidity relative %",
+      "humidity % relative"
+    ],
+    "conversion_safe": true,
+    "dimension": "fraction",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "A": {
+    "aliases": [
+      "A",
+      "ampere",
+      "amperes",
+      "amps"
+    ],
+    "conversion_safe": true,
+    "dimension": "electric_current",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "L": {
+    "aliases": [
+      "L",
+      "l",
+      "liter",
+      "liters",
+      "litre",
+      "litres",
+      "ltr"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "1000"
+  },
+  "L/h": {
+    "aliases": [
+      "L/h",
+      "l/h",
+      "liter per hour",
+      "liters per hour",
+      "litre per hour",
+      "litres per hour"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume_flow",
+    "note": "",
+    "offset": "0",
+    "scale": "0.2777777777777777777777777778"
+  },
+  "L/min": {
+    "aliases": [
+      "L/min",
+      "l/min",
+      "liter per minute",
+      "liters per minute",
+      "litre per minute",
+      "litres per minute",
+      "l/分"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume_flow",
+    "note": "",
+    "offset": "0",
+    "scale": "16.66666666666666666666666667"
+  },
+  "MPa": {
+    "aliases": [
+      "MPa",
+      "megapascal",
+      "megapascals"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "1000000"
+  },
+  "N": {
+    "aliases": [
+      "N",
+      "newton",
+      "newtons"
+    ],
+    "conversion_safe": true,
+    "dimension": "force",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "Pa": {
+    "aliases": [
+      "Pa",
+      "pascal",
+      "pascals"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "V": {
+    "aliases": [
+      "V",
+      "volt",
+      "volts"
+    ],
+    "conversion_safe": true,
+    "dimension": "voltage",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "W": {
+    "aliases": [
+      "W",
+      "watt",
+      "watts"
+    ],
+    "conversion_safe": true,
+    "dimension": "power",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "Wh": {
+    "aliases": [
+      "Wh",
+      "watt-hour",
+      "watt hour"
+    ],
+    "conversion_safe": true,
+    "dimension": "energy",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "atm": {
+    "aliases": [
+      "atm",
+      "atmosphere"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "101325"
+  },
+  "bar": {
+    "aliases": [
+      "bar",
+      "bars"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "100000"
+  },
+  "bpm": {
+    "aliases": [
+      "bpm",
+      "beats per minute"
+    ],
+    "conversion_safe": true,
+    "dimension": "heart_rate",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "cm": {
+    "aliases": [
+      "cm",
+      "centimeter",
+      "centimeters",
+      "centimetre",
+      "centimetres"
+    ],
+    "conversion_safe": true,
+    "dimension": "length",
+    "note": "",
+    "offset": "0",
+    "scale": "10"
+  },
+  "cm^3": {
+    "aliases": [
+      "cm^3",
+      "cm³",
+      "cc",
+      "cubic centimetre",
+      "cubic centimeter"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "cup": {
+    "aliases": [
+      "cup",
+      "cups"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "236.5882365"
+  },
+  "dL": {
+    "aliases": [
+      "dL",
+      "deciliter",
+      "decilitre"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "100"
+  },
+  "deg": {
+    "aliases": [
+      "deg",
+      "°",
+      "degree",
+      "degrees"
+    ],
+    "conversion_safe": true,
+    "dimension": "angle",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "fl oz": {
+    "aliases": [
+      "fl oz",
+      "oz",
+      "ounce",
+      "ounces"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "29.5735295625"
+  },
+  "ft^3": {
+    "aliases": [
+      "ft^3",
+      "ft³",
+      "cubic foot",
+      "cubic feet",
+      "cu ft"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "28316.846592"
+  },
+  "g": {
+    "aliases": [
+      "g",
+      "gram",
+      "grams"
+    ],
+    "conversion_safe": true,
+    "dimension": "mass",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "gal": {
+    "aliases": [
+      "gal",
+      "gallon",
+      "gallons"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "3785.411784"
+  },
+  "hPa": {
+    "aliases": [
+      "hPa",
+      "hectopascal",
+      "hectopascals"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "100"
+  },
+  "in": {
+    "aliases": [
+      "in",
+      "inch",
+      "inches"
+    ],
+    "conversion_safe": true,
+    "dimension": "length",
+    "note": "",
+    "offset": "0",
+    "scale": "25.4"
+  },
+  "inH2O": {
+    "aliases": [
+      "inH2O",
+      "inh₂o",
+      "inches of water"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "249.08891"
+  },
+  "inHg": {
+    "aliases": [
+      "inHg",
+      "inch of mercury",
+      "inches of mercury"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "3386.389"
+  },
+  "jin": {
+    "aliases": [
+      "jin",
+      "catty"
+    ],
+    "conversion_safe": false,
+    "dimension": "mass",
+    "note": "regional value is ambiguous",
+    "offset": "0",
+    "scale": "500"
+  },
+  "kA": {
+    "aliases": [
+      "kA",
+      "kiloampere"
+    ],
+    "conversion_safe": true,
+    "dimension": "electric_current",
+    "note": "",
+    "offset": "0",
+    "scale": "1000"
+  },
+  "kL": {
+    "aliases": [
+      "kL",
+      "kl",
+      "kiloliter",
+      "kiloliters",
+      "kilolitre",
+      "kilolitres",
+      "kilo liter",
+      "kilo liters",
+      "kilo litre",
+      "kilo litres",
+      "kilo-liter",
+      "kilo-litres",
+      "kilo ltr"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "1000000"
+  },
+  "kPa": {
+    "aliases": [
+      "kPa",
+      "kilopascal",
+      "kilopascals"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "1000"
+  },
+  "kV": {
+    "aliases": [
+      "kV",
+      "kilovolt",
+      "kilvolt"
+    ],
+    "conversion_safe": true,
+    "dimension": "voltage",
+    "note": "",
+    "offset": "0",
+    "scale": "1000"
+  },
+  "kW": {
+    "aliases": [
+      "kW",
+      "kilowatt",
+      "kilowatts"
+    ],
+    "conversion_safe": true,
+    "dimension": "power",
+    "note": "",
+    "offset": "0",
+    "scale": "1000"
+  },
+  "kWh": {
+    "aliases": [
+      "kWh",
+      "kw*h",
+      "kw·h",
+      "kilowatt-hour",
+      "kilowatt-hours",
+      "kilowatt hour",
+      "kilowatt hours"
+    ],
+    "conversion_safe": true,
+    "dimension": "energy",
+    "note": "",
+    "offset": "0",
+    "scale": "1000"
+  },
+  "kg": {
+    "aliases": [
+      "kg",
+      "kilogram",
+      "kilograms",
+      "kilo",
+      "kilos"
+    ],
+    "conversion_safe": true,
+    "dimension": "mass",
+    "note": "",
+    "offset": "0",
+    "scale": "1000"
+  },
+  "kg/h": {
+    "aliases": [
+      "kg/h",
+      "kilogram per hour",
+      "kilograms per hour"
+    ],
+    "conversion_safe": true,
+    "dimension": "mass_flow",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "kgf/cm^2": {
+    "aliases": [
+      "kgf/cm^2",
+      "kgf/cm²",
+      "kg/cm^2",
+      "kg/cm²",
+      "kilogram-force per square centimeter",
+      "kilogram per square centimeter"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "98066.5"
+  },
+  "km/h": {
+    "aliases": [
+      "km/h",
+      "kilometers per hour",
+      "kilometres per hour",
+      "kph"
+    ],
+    "conversion_safe": true,
+    "dimension": "speed",
+    "note": "",
+    "offset": "0",
+    "scale": "0.2777777777777777777777777778"
+  },
+  "lb": {
+    "aliases": [
+      "lb",
+      "lbs",
+      "pound",
+      "pounds"
+    ],
+    "conversion_safe": true,
+    "dimension": "mass",
+    "note": "",
+    "offset": "0",
+    "scale": "453.59237"
+  },
+  "m": {
+    "aliases": [
+      "m",
+      "meter",
+      "metre"
+    ],
+    "conversion_safe": true,
+    "dimension": "length",
+    "note": "",
+    "offset": "0",
+    "scale": "1000"
+  },
+  "m/s": {
+    "aliases": [
+      "m/s",
+      "meter per second",
+      "metre per second"
+    ],
+    "conversion_safe": true,
+    "dimension": "speed",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "mA": {
+    "aliases": [
+      "mA",
+      "milliampere",
+      "milliamps",
+      "milliamp"
+    ],
+    "conversion_safe": true,
+    "dimension": "electric_current",
+    "note": "",
+    "offset": "0",
+    "scale": "0.001"
+  },
+  "mL": {
+    "aliases": [
+      "mL",
+      "ml",
+      "milliliter",
+      "milliliters",
+      "millilitre",
+      "millilitres"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "mL/s": {
+    "aliases": [
+      "mL/s",
+      "ml/s",
+      "milliliters per second"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume_flow",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "mV": {
+    "aliases": [
+      "mV",
+      "millivolt"
+    ],
+    "conversion_safe": true,
+    "dimension": "voltage",
+    "note": "",
+    "offset": "0",
+    "scale": "0.001"
+  },
+  "m^3": {
+    "aliases": [
+      "m^3",
+      "m³",
+      "cubic meter",
+      "cubic meters",
+      "cubic metre",
+      "cubic metres",
+      "cu m"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "1000000"
+  },
+  "mbar": {
+    "aliases": [
+      "mbar",
+      "millibar",
+      "millibars",
+      "mba"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "100"
+  },
+  "mm": {
+    "aliases": [
+      "mm",
+      "millimeter",
+      "millimeters",
+      "millimetre",
+      "millimetres"
+    ],
+    "conversion_safe": true,
+    "dimension": "length",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "mmH2O": {
+    "aliases": [
+      "mmH2O",
+      "mmh2o",
+      "millimeters of water"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "9.80665"
+  },
+  "mmHg": {
+    "aliases": [
+      "mmHg",
+      "millimeter of mercury",
+      "millimeters of mercury",
+      "millimetre of mercury",
+      "millimetres of mercury"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "133.322387415"
+  },
+  "mph": {
+    "aliases": [
+      "mph",
+      "miles per hour"
+    ],
+    "conversion_safe": true,
+    "dimension": "speed",
+    "note": "",
+    "offset": "0",
+    "scale": "0.44704"
+  },
+  "oz_mass": {
+    "aliases": [
+      "oz_mass",
+      "oz",
+      "ounce",
+      "ounces"
+    ],
+    "conversion_safe": true,
+    "dimension": "mass",
+    "note": "",
+    "offset": "0",
+    "scale": "28.349523125"
+  },
+  "psi": {
+    "aliases": [
+      "psi",
+      "pounds per square inch",
+      "pound per square inch",
+      "pound-force per square inch",
+      "lb/in^2",
+      "lb/in²",
+      "lbs/in^2",
+      "lbs/in²"
+    ],
+    "conversion_safe": true,
+    "dimension": "pressure",
+    "note": "",
+    "offset": "0",
+    "scale": "6894.757293168"
+  },
+  "rpm": {
+    "aliases": [
+      "rpm",
+      "r/min",
+      "revolutions per minute"
+    ],
+    "conversion_safe": true,
+    "dimension": "rotational_speed",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "tai_liang": {
+    "aliases": [
+      "tai_liang",
+      "tai liang"
+    ],
+    "conversion_safe": true,
+    "dimension": "mass",
+    "note": "",
+    "offset": "0",
+    "scale": "37.5"
+  },
+  "taiwan_catty": {
+    "aliases": [
+      "taiwan_catty",
+      "taiwan catty",
+      "台斤"
+    ],
+    "conversion_safe": true,
+    "dimension": "mass",
+    "note": "",
+    "offset": "0",
+    "scale": "600"
+  },
+  "tbsp": {
+    "aliases": [
+      "tbsp",
+      "tablespoon",
+      "tablespoons"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "14.78676478125"
+  },
+  "uA": {
+    "aliases": [
+      "uA",
+      "μa",
+      "µa",
+      "microampere",
+      "microamperes"
+    ],
+    "conversion_safe": true,
+    "dimension": "electric_current",
+    "note": "",
+    "offset": "0",
+    "scale": "0.000001"
+  },
+  "uL": {
+    "aliases": [
+      "uL",
+      "μl",
+      "µl",
+      "microliter",
+      "microlitre"
+    ],
+    "conversion_safe": true,
+    "dimension": "volume",
+    "note": "",
+    "offset": "0",
+    "scale": "0.001"
+  },
+  "uV": {
+    "aliases": [
+      "uV",
+      "μv",
+      "µv",
+      "microvolt"
+    ],
+    "conversion_safe": true,
+    "dimension": "voltage",
+    "note": "",
+    "offset": "0",
+    "scale": "0.000001"
+  },
+  "°C": {
+    "aliases": [
+      "°C",
+      "c",
+      "celsius",
+      "degree celsius",
+      "degrees celsius",
+      "degree celcius",
+      "degrees celcius"
+    ],
+    "conversion_safe": true,
+    "dimension": "temperature",
+    "note": "",
+    "offset": "0",
+    "scale": "1"
+  },
+  "°F": {
+    "aliases": [
+      "°F",
+      "f",
+      "fahrenheit",
+      "degree fahrenheit",
+      "degrees fahrenheit"
+    ],
+    "conversion_safe": true,
+    "dimension": "temperature",
+    "note": "",
+    "offset": "-17.77777777777777777777777778",
+    "scale": "0.5555555555555555555555555556"
+  }
+}

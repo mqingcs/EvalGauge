@@ -1,0 +1,6 @@
+source_path,direct_records,included_records
+artifacts/logs/call_ledger.jsonl,72,72
+round2/generated/axis_view_direct_probe/responses.jsonl,288,0
+round2/generated/doubao_direct/records.jsonl,24,0
+round3/generated/end_to_end_holdout_direct5/responses.jsonl,325,325
+round3/generated/fresh_doubao_direct_repeats/responses.jsonl,240,240

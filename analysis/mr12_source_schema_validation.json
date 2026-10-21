@@ -1,0 +1,197 @@
+{
+  "alternatives_truncated_by_zip": 86,
+  "binary_score_flips": 168,
+  "cardinality_aligned_rows": 57,
+  "cardinality_mismatch_rows": 84,
+  "examples": [
+    {
+      "flips": [
+        {
+          "answer": "06:45:13",
+          "branch_index": 0,
+          "original": true,
+          "permuted": false
+        },
+        {
+          "answer": "18:45:13",
+          "branch_index": 1,
+          "original": false,
+          "permuted": true
+        }
+      ],
+      "intervals": [
+        [
+          "6:45:12",
+          "6:45:14"
+        ],
+        [
+          "18:45:12",
+          "18:45:14"
+        ]
+      ],
+      "row_id": "real_world::clock_64",
+      "units": [
+        ""
+      ]
+    },
+    {
+      "flips": [
+        {
+          "answer": "09:40:05",
+          "branch_index": 0,
+          "original": true,
+          "permuted": false
+        },
+        {
+          "answer": "21:40:05",
+          "branch_index": 1,
+          "original": false,
+          "permuted": true
+        }
+      ],
+      "intervals": [
+        [
+          "9:40:05",
+          "9:40:06"
+        ],
+        [
+          "21:40:05",
+          "21:40:06"
+        ]
+      ],
+      "row_id": "real_world::clock_65",
+      "units": [
+        ""
+      ]
+    },
+    {
+      "flips": [
+        {
+          "answer": "06:59:30",
+          "branch_index": 0,
+          "original": true,
+          "permuted": false
+        },
+        {
+          "answer": "18:59:30",
+          "branch_index": 1,
+          "original": false,
+          "permuted": true
+        }
+      ],
+      "intervals": [
+        [
+          "6:59:00",
+          "7:00:00"
+        ],
+        [
+          "18:59:00",
+          "19:00:00"
+        ]
+      ],
+      "row_id": "real_world::clock_66",
+      "units": [
+        ""
+      ]
+    },
+    {
+      "flips": [
+        {
+          "answer": "10:46:31",
+          "branch_index": 0,
+          "original": true,
+          "permuted": false
+        },
+        {
+          "answer": "22:46:31",
+          "branch_index": 1,
+          "original": false,
+          "permuted": true
+        }
+      ],
+      "intervals": [
+        [
+          "10:46:31",
+          "10:46:32"
+        ],
+        [
+          "22:46:31",
+          "22:46:32"
+        ]
+      ],
+      "row_id": "real_world::clock_67",
+      "units": [
+        ""
+      ]
+    },
+    {
+      "flips": [
+        {
+          "answer": "05:22:31",
+          "branch_index": 0,
+          "original": true,
+          "permuted": false
+        },
+        {
+          "answer": "17:22:31",
+          "branch_index": 1,
+          "original": false,
+          "permuted": true
+        }
+      ],
+      "intervals": [
+        [
+          "05:22:31",
+          "05:22:32"
+        ],
+        [
+          "17:22:31",
+          "17:22:32"
+        ]
+      ],
+      "row_id": "real_world::clock_68",
+      "units": [
+        ""
+      ]
+    },
+    {
+      "flips": [
+        {
+          "answer": "02:25:43",
+          "branch_index": 0,
+          "original": true,
+          "permuted": false
+        },
+        {
+          "answer": "14:25:43",
+          "branch_index": 1,
+          "original": false,
+          "permuted": true
+        }
+      ],
+      "intervals": [
+        [
+          "2:25:42",
+          "2:25:44"
+        ],
+        [
+          "14:25:42",
+          "14:25:44"
+        ]
+      ],
+      "row_id": "real_world::clock_69",
+      "units": [
+        ""
+      ]
+    }
+  ],
+  "flat_unit_multi_interval_rows": 141,
+  "method": "Directly read released evaluator_kwargs, reverse only the interval list when multiple intervals share a flat string-unit list, and execute the legacy scorer. This check does not call the typed contract compiler.",
+  "rows_with_order_dependent_legacy_score": 84,
+  "schema": "evalgauge-mr12-direct-source-validation-v1",
+  "source_schema_patterns": {
+    "intervals=2,units=1,values=['']": 83,
+    "intervals=2,units=2,values=['', '']": 57,
+    "intervals=4,units=1,values=['']": 1
+  }
+}

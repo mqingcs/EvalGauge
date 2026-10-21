@@ -1,0 +1,17 @@
+applicable_rows,cases,claim_class,official_acceptance,official_exceptions,official_mir,relation_id,relation_name,repaired_acceptance,repaired_exceptions,repaired_mir,type_safe_acceptance,type_safe_mir
+2054,4700,specification_invariance,0.8480851063829787,0,1.0,MR-01,numeric representation,0.8540425531914894,0,1.0,1.0,1.0
+2049,2345,specification_invariance,0.005970149253731343,0,0.15778251599147122,MR-02,scientific notation,0.005970149253731343,0,0.15181236673773987,1.0,1.0
+2054,2350,specification_invariance,0.8480851063829787,0,1.0,MR-03,zeros and explicit sign,0.8540425531914894,0,1.0,1.0,1.0
+2442,5237,specification_invariance,0.8472407867099484,0,1.0,MR-04,natural-language wrapper,0.8525873591751002,0,1.0,1.0,1.0
+2442,5237,specification_invariance,0.8472407867099484,0,1.0,MR-05,whitespace and punctuation,0.8525873591751002,0,1.0,1.0,1.0
+1973,2269,specification_invariance,0.8510356985456148,0,0.996914940502424,MR-06,Unicode symbols,0.8519171441163508,0,0.996914940502424,1.0,1.0
+1973,4531,physical_equivalence_extension,0.9909512248951666,0,0.8408739792540278,MR-07,registered unit aliases,0.9918340322224675,0,0.8408739792540278,1.0,1.0
+1536,1751,physical_equivalence_extension,0.06167904054825814,0,0.18275271273557966,MR-08,multiplicative unit conversion,0.06167904054825814,0,0.1816105082809823,1.0,1.0
+213,293,physical_equivalence_extension,0.4300341296928328,0,0.4402730375426621,MR-09,affine temperature conversion,0.4300341296928328,0,0.4402730375426621,1.0,1.0
+2442,7587,specification_invariance,0.586661394490576,1534,0.7354685646500593,MR-10,interval container schema,0.8530380914722552,0,1.0,1.0,1.0
+422,437,specification_invariance,0.8993135011441648,0,1.0,MR-11,singleton and exact interval,0.9244851258581236,0,1.0,1.0,1.0
+438,883,specification_invariance,0.8686296715741789,0,0.8097395243488109,MR-12,alternative permutation,0.8686296715741789,0,0.8097395243488109,1.0,1.0
+1660,3826,specification_invariance,0.836382645060115,0,1.0,MR-13,inclusive boundaries,0.8379508625196027,0,1.0,1.0,1.0
+388,690,specification_invariance,0.8463768115942029,0,1.0,MR-14,clock-number separation,0.8463768115942029,0,1.0,1.0,1.0
+80,80,physical_equivalence_extension,0.675,0,1.0,MR-23,compound units,0.675,0,1.0,1.0,1.0
+2054,2350,specification_invariance,0.8480851063829787,0,1.0,MR-24,approximation wrappers,0.8540425531914894,0,1.0,1.0,1.0

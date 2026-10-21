@@ -1,0 +1,79 @@
+{
+  "by_claim_class": [
+    {
+      "applicable_rows": 1973,
+      "cases": 6655,
+      "claim_class": "physical_equivalence_extension",
+      "official_case_error_rate": 0.2820435762584523,
+      "official_invariance_failure_rate": 0.34800901577761084,
+      "polarity": "positive",
+      "relation_families": 4,
+      "repaired_case_error_rate": 0.28144252441773104,
+      "repaired_invariance_failure_rate": 0.34830954169797146,
+      "type_safe_case_error_rate": 0.0,
+      "type_safe_invariance_failure_rate": 0.0
+    },
+    {
+      "applicable_rows": 2442,
+      "cases": 37911,
+      "claim_class": "specification_invariance",
+      "official_case_error_rate": 0.2565218538155153,
+      "official_invariance_failure_rate": 0.10965155231990716,
+      "polarity": "positive",
+      "relation_families": 12,
+      "repaired_case_error_rate": 0.19975732636965524,
+      "repaired_invariance_failure_rate": 0.05708105826804885,
+      "type_safe_case_error_rate": 0.0,
+      "type_safe_invariance_failure_rate": 0.0
+    },
+    {
+      "applicable_rows": 2442,
+      "cases": 37212,
+      "claim_class": "invalid_answer_safety",
+      "official_case_error_rate": 0.07019241105019886,
+      "polarity": "negative",
+      "relation_families": 11,
+      "repaired_case_error_rate": 0.07024615715360637,
+      "type_safe_case_error_rate": 0.0
+    }
+  ],
+  "definitions": {
+    "case_micro": "mean over generated cases",
+    "relation_family_macro": "mean of per-relation rates over applicable relation families",
+    "row_macro": "mean of per-row rates over rows with applicable cases"
+  },
+  "invalid_case_acceptance": {
+    "official": {
+      "case_micro": 0.07019241105019886,
+      "relation_family_macro": 0.10475648209424815,
+      "row_macro": 0.09711232408892484
+    },
+    "repaired": {
+      "case_micro": 0.07024615715360637,
+      "relation_family_macro": 0.10483867837897609,
+      "row_macro": 0.0971669241435249
+    },
+    "type_safe": {
+      "case_micro": 0.0,
+      "relation_family_macro": 0.0,
+      "row_macro": 0.0
+    }
+  },
+  "valid_case_rejection": {
+    "official": {
+      "case_micro": 0.2603329892743347,
+      "relation_family_macro": 0.29432680253952037,
+      "row_macro": 0.2524790572638906
+    },
+    "repaired": {
+      "case_micro": 0.21195530224835077,
+      "relation_family_macro": 0.274111410201458,
+      "row_macro": 0.2078881944582035
+    },
+    "type_safe": {
+      "case_micro": 0.0,
+      "relation_family_macro": 0.0,
+      "row_macro": 0.0
+    }
+  }
+}

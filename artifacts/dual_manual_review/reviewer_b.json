@@ -1,0 +1,271 @@
+{
+  "case_count": 35,
+  "protocol": {
+    "hidden": [
+      "compiled_contract",
+      "official_score",
+      "strict_score",
+      "policy_name",
+      "fault_attribution",
+      "other_reviewer_verdict"
+    ],
+    "visible": [
+      "image",
+      "question",
+      "raw_released_annotation",
+      "benchmark_instruction",
+      "model_response"
+    ]
+  },
+  "reviewed_count": 35,
+  "reviews": [
+    {
+      "case_id": "transition-01",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:59:41.493335+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-02",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:00:37.133892+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-03",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:04:17.997967+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-04",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:57:15.691515+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-05",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:57:55.342879+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-06",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:56:45.308726+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-07",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:00:06.220354+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-08",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:42:08.618756+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-09",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:58:44.905157+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-10",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:58:54.688096+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-11",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:03:13.201981+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-12",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:56:33.157431+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-13",
+      "note": "本题的原始区间是2.5-3.5，对应40-45，问题是在原图上2.5对应的是35，3.5对应的是50，根本不对应40和45，应该改为2.5-3.5和35-50",
+      "reviewed_at": "2026-08-24T14:02:54.834312+00:00",
+      "source_issue": true,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-14",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:58:19.590100+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-15",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:56:53.533482+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-16",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:04:29.485387+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-17",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:00:09.630985+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-18",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:41:52.874112+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-19",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:41:55.725623+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-20",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:58:05.069781+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-21",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:00:25.714466+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-22",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:00:31.787150+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-23",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:57:01.367545+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-24",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:04:07.993936+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-25",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:57:07.191031+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-26",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:03:24.776370+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-27",
+      "note": "原始答案是错的，应该是68-72，70完全对",
+      "reviewed_at": "2026-08-24T14:04:00.431343+00:00",
+      "source_issue": true,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-28",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:03:05.903799+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-29",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:58:02.157118+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-30",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:04:05.365012+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-31",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:04:35.137356+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-32",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:59:35.515988+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-33",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:03:20.693214+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-34",
+      "note": "76°F是对的，原标注有问题",
+      "reviewed_at": "2026-08-24T13:59:28.819307+00:00",
+      "source_issue": true,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-35",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:41:48.261186+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    }
+  ],
+  "role": "reviewer_b",
+  "schema": "evalgauge-independent-manual-review-v2",
+  "updated_at": "2026-08-24T14:04:35.137370+00:00"
+}

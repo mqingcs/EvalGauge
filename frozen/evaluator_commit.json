@@ -1,0 +1,18 @@
+{
+  "official": {
+    "commit": "fef27ec696c532d12f0db389bcbbf79eab0e4c41",
+    "path_after_checkout": "tasks/measure_bench/measure_bench_evaluator.py",
+    "redistributed": false,
+    "source_url": "https://github.com/flageval-baai/FlagEvalMM/tree/fef27ec696c532d12f0db389bcbbf79eab0e4c41/tasks/measure_bench",
+    "sha256": "24b9df1525d41bbea2e1065b1eb6e375867ec3ddbdb11211e7ba1c5f13df9e55"
+  },
+  "repaired": {
+    "description": "Parity implementation plus numeric-string endpoint repair only",
+    "path": "src/evalgauge/differential.py",
+    "sha256": "bb5d871a306fdb8bd8fa77e60d2ec73fa181c3a85b5cec788d308bbc59199477"
+  },
+  "reference": {
+    "description": "EvalGauge typed quantity contract compiler and evaluator",
+    "implementation": "src/evalgauge"
+  }
+}

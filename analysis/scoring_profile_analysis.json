@@ -1,0 +1,174 @@
+{
+  "contemporary_responses": 637,
+  "matrix": [
+    {
+      "core_final_accuracy": 0.18946540880503146,
+      "core_to_physics_changed": 20,
+      "model": "GPT-5",
+      "numeric_patch_accuracy": 0.19968553459119498,
+      "official_accuracy": 0.19811320754716982,
+      "official_to_core_changed": 25,
+      "official_to_strict_changed": 12,
+      "physics_final_accuracy": 0.20518867924528303,
+      "physics_to_strict_changed": 3,
+      "responses": 1272,
+      "source": "benchmark_released",
+      "split": "real_world",
+      "strict_final_accuracy": 0.2028301886792453,
+      "unique_rows": 1272
+    },
+    {
+      "core_final_accuracy": 0.1700854700854701,
+      "core_to_physics_changed": 2,
+      "model": "GPT-5",
+      "numeric_patch_accuracy": 0.16923076923076924,
+      "official_accuracy": 0.16923076923076924,
+      "official_to_core_changed": 3,
+      "official_to_strict_changed": 2,
+      "physics_final_accuracy": 0.1717948717948718,
+      "physics_to_strict_changed": 1,
+      "responses": 1170,
+      "source": "benchmark_released",
+      "split": "synthetic_test",
+      "strict_final_accuracy": 0.17094017094017094,
+      "unique_rows": 1170
+    },
+    {
+      "core_final_accuracy": 0.29638364779874216,
+      "core_to_physics_changed": 23,
+      "model": "Gemini-2.5-Pro",
+      "numeric_patch_accuracy": 0.3050314465408805,
+      "official_accuracy": 0.3018867924528302,
+      "official_to_core_changed": 33,
+      "official_to_strict_changed": 19,
+      "physics_final_accuracy": 0.31446540880503143,
+      "physics_to_strict_changed": 5,
+      "responses": 1272,
+      "source": "benchmark_released",
+      "split": "real_world",
+      "strict_final_accuracy": 0.31053459119496857,
+      "unique_rows": 1272
+    },
+    {
+      "core_final_accuracy": 0.2606837606837607,
+      "core_to_physics_changed": 8,
+      "model": "Gemini-2.5-Pro",
+      "numeric_patch_accuracy": 0.26324786324786326,
+      "official_accuracy": 0.26324786324786326,
+      "official_to_core_changed": 7,
+      "official_to_strict_changed": 2,
+      "physics_final_accuracy": 0.2675213675213675,
+      "physics_to_strict_changed": 3,
+      "responses": 1170,
+      "source": "benchmark_released",
+      "split": "synthetic_test",
+      "strict_final_accuracy": 0.26495726495726496,
+      "unique_rows": 1170
+    },
+    {
+      "core_final_accuracy": 0.45132743362831856,
+      "core_to_physics_changed": 5,
+      "model": "doubao-seed-2.1-turbo",
+      "numeric_patch_accuracy": 0.45486725663716815,
+      "official_accuracy": 0.44601769911504424,
+      "official_to_core_changed": 3,
+      "official_to_strict_changed": 7,
+      "physics_final_accuracy": 0.46017699115044247,
+      "physics_to_strict_changed": 1,
+      "responses": 565,
+      "source": "contemporary_transfer",
+      "split": "linked_subset",
+      "strict_final_accuracy": 0.4584070796460177,
+      "unique_rows": 113
+    },
+    {
+      "core_final_accuracy": 0.4722222222222222,
+      "core_to_physics_changed": 1,
+      "model": "gemini-3.6-flash",
+      "numeric_patch_accuracy": 0.4444444444444444,
+      "official_accuracy": 0.4444444444444444,
+      "official_to_core_changed": 3,
+      "official_to_strict_changed": 2,
+      "physics_final_accuracy": 0.5,
+      "physics_to_strict_changed": 4,
+      "responses": 36,
+      "source": "contemporary_transfer",
+      "split": "linked_subset",
+      "strict_final_accuracy": 0.3888888888888889,
+      "unique_rows": 36
+    },
+    {
+      "core_final_accuracy": 0.25,
+      "core_to_physics_changed": 0,
+      "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "numeric_patch_accuracy": 0.25,
+      "official_accuracy": 0.25,
+      "official_to_core_changed": 0,
+      "official_to_strict_changed": 0,
+      "physics_final_accuracy": 0.25,
+      "physics_to_strict_changed": 0,
+      "responses": 36,
+      "source": "contemporary_transfer",
+      "split": "linked_subset",
+      "strict_final_accuracy": 0.25,
+      "unique_rows": 36
+    }
+  ],
+  "profile_boundary_transitions": {
+    "contemporary_core_to_physics": {
+      "00": 350,
+      "01": 6,
+      "10": 0,
+      "11": 281
+    },
+    "contemporary_official_to_core": {
+      "00": 355,
+      "01": 5,
+      "10": 1,
+      "11": 276
+    },
+    "contemporary_official_to_strict": {
+      "00": 353,
+      "01": 7,
+      "10": 2,
+      "11": 275
+    },
+    "contemporary_physics_to_strict": {
+      "00": 350,
+      "01": 0,
+      "10": 5,
+      "11": 282
+    },
+    "public_core_to_physics": {
+      "00": 3709,
+      "01": 53,
+      "10": 0,
+      "11": 1122
+    },
+    "public_official_to_core": {
+      "00": 3718,
+      "01": 24,
+      "10": 44,
+      "11": 1098
+    },
+    "public_official_to_strict": {
+      "00": 3714,
+      "01": 28,
+      "10": 7,
+      "11": 1135
+    },
+    "public_physics_to_strict": {
+      "00": 3709,
+      "01": 0,
+      "10": 12,
+      "11": 1163
+    }
+  },
+  "profile_definitions": {
+    "core_final": "Released final extraction; typed endpoints; unordered alternatives; closed intervals; token-safe matching against source-declared unit spellings; any valid expected-type quantity suffices.",
+    "physics_final": "Core-final plus registered same-dimension aliases and multiplicative or affine conversion.",
+    "strict_final": "Physics-final plus all-extracted-expected-type-quantities-valid aggregation."
+  },
+  "public_responses": 4884,
+  "schema": "evalgauge-executable-profile-analysis-v1"
+}

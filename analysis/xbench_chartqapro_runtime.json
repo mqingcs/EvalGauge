@@ -1,0 +1,8 @@
+{
+  "command": "uv run python scripts/run_chartqapro_probe.py --root .",
+  "execution_mode": "single CPU process",
+  "maximum_resident_set_bytes": 129236992,
+  "system_seconds": 0.05,
+  "user_seconds": 0.79,
+  "wall_seconds": 0.92
+}

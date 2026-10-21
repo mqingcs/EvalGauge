@@ -1,0 +1,510 @@
+{
+  "answer_count": 4884,
+  "changed_records": 506,
+  "changed_unique_rows": 503,
+  "model_split_summaries": [
+    {
+      "core_final_accuracy": 0.18946540880503146,
+      "delta_core_final_minus_official": -0.008647798742138363,
+      "delta_physics_final_minus_official": 0.007075471698113206,
+      "delta_strict_final_minus_official": 0.004716981132075471,
+      "delta_typed_final_minus_official": 0.004716981132075471,
+      "delta_typed_global_minus_typed_final": 0.0,
+      "model": "GPT-5",
+      "official_accuracy": 0.19811320754716982,
+      "official_only_accepts": 3,
+      "official_to_core_final_changed": 25,
+      "official_to_physics_final_changed": 13,
+      "official_to_strict_final_changed": 12,
+      "official_to_typed_final_changed": 12,
+      "physics_final_accuracy": 0.20518867924528303,
+      "repaired_accuracy": 0.19968553459119498,
+      "rows": 1272,
+      "split": "real_world",
+      "strict_final_accuracy": 0.2028301886792453,
+      "typed_final_accuracy": 0.2028301886792453,
+      "typed_final_only_accepts": 9,
+      "typed_final_only_vs_global": 0,
+      "typed_final_to_global_changed": 0,
+      "typed_final_to_robust_final_changed": 0,
+      "typed_global_accuracy": 0.2028301886792453,
+      "typed_global_only_vs_final": 0,
+      "typed_robust_final_accuracy": 0.2028301886792453
+    },
+    {
+      "core_final_accuracy": 0.1700854700854701,
+      "delta_core_final_minus_official": 0.0008547008547008517,
+      "delta_physics_final_minus_official": 0.002564102564102555,
+      "delta_strict_final_minus_official": 0.0017094017094017033,
+      "delta_typed_final_minus_official": 0.0017094017094017033,
+      "delta_typed_global_minus_typed_final": 0.0,
+      "model": "GPT-5",
+      "official_accuracy": 0.16923076923076924,
+      "official_only_accepts": 0,
+      "official_to_core_final_changed": 3,
+      "official_to_physics_final_changed": 3,
+      "official_to_strict_final_changed": 2,
+      "official_to_typed_final_changed": 2,
+      "physics_final_accuracy": 0.1717948717948718,
+      "repaired_accuracy": 0.16923076923076924,
+      "rows": 1170,
+      "split": "synthetic_test",
+      "strict_final_accuracy": 0.17094017094017094,
+      "typed_final_accuracy": 0.17094017094017094,
+      "typed_final_only_accepts": 2,
+      "typed_final_only_vs_global": 0,
+      "typed_final_to_global_changed": 0,
+      "typed_final_to_robust_final_changed": 0,
+      "typed_global_accuracy": 0.17094017094017094,
+      "typed_global_only_vs_final": 0,
+      "typed_robust_final_accuracy": 0.17094017094017094
+    },
+    {
+      "core_final_accuracy": 0.29638364779874216,
+      "delta_core_final_minus_official": -0.005503144654088021,
+      "delta_physics_final_minus_official": 0.012578616352201255,
+      "delta_strict_final_minus_official": 0.00864779874213839,
+      "delta_typed_final_minus_official": 0.00864779874213839,
+      "delta_typed_global_minus_typed_final": -0.21933962264150947,
+      "model": "Gemini-2.5-Pro",
+      "official_accuracy": 0.3018867924528302,
+      "official_only_accepts": 4,
+      "official_to_core_final_changed": 33,
+      "official_to_physics_final_changed": 18,
+      "official_to_strict_final_changed": 19,
+      "official_to_typed_final_changed": 19,
+      "physics_final_accuracy": 0.31446540880503143,
+      "repaired_accuracy": 0.3050314465408805,
+      "rows": 1272,
+      "split": "real_world",
+      "strict_final_accuracy": 0.31053459119496857,
+      "typed_final_accuracy": 0.31053459119496857,
+      "typed_final_only_accepts": 15,
+      "typed_final_only_vs_global": 279,
+      "typed_final_to_global_changed": 279,
+      "typed_final_to_robust_final_changed": 0,
+      "typed_global_accuracy": 0.09119496855345911,
+      "typed_global_only_vs_final": 0,
+      "typed_robust_final_accuracy": 0.31053459119496857
+    },
+    {
+      "core_final_accuracy": 0.2606837606837607,
+      "delta_core_final_minus_official": -0.002564102564102555,
+      "delta_physics_final_minus_official": 0.004273504273504258,
+      "delta_strict_final_minus_official": 0.0017094017094017033,
+      "delta_typed_final_minus_official": 0.0017094017094017033,
+      "delta_typed_global_minus_typed_final": -0.1769230769230769,
+      "model": "Gemini-2.5-Pro",
+      "official_accuracy": 0.26324786324786326,
+      "official_only_accepts": 0,
+      "official_to_core_final_changed": 7,
+      "official_to_physics_final_changed": 5,
+      "official_to_strict_final_changed": 2,
+      "official_to_typed_final_changed": 2,
+      "physics_final_accuracy": 0.2675213675213675,
+      "repaired_accuracy": 0.26324786324786326,
+      "rows": 1170,
+      "split": "synthetic_test",
+      "strict_final_accuracy": 0.26495726495726496,
+      "typed_final_accuracy": 0.26495726495726496,
+      "typed_final_only_accepts": 2,
+      "typed_final_only_vs_global": 207,
+      "typed_final_to_global_changed": 207,
+      "typed_final_to_robust_final_changed": 0,
+      "typed_global_accuracy": 0.08803418803418804,
+      "typed_global_only_vs_final": 0,
+      "typed_robust_final_accuracy": 0.26495726495726496
+    },
+    {
+      "core_final_accuracy": 0.18018018018018017,
+      "delta_core_final_minus_official": -0.004095004095004101,
+      "delta_physics_final_minus_official": 0.004914004914004927,
+      "delta_strict_final_minus_official": 0.0032760032760032753,
+      "delta_typed_final_minus_official": 0.0032760032760032753,
+      "delta_typed_global_minus_typed_final": 0.0,
+      "model": "GPT-5",
+      "official_accuracy": 0.18427518427518427,
+      "official_only_accepts": 3,
+      "official_to_core_final_changed": 28,
+      "official_to_physics_final_changed": 16,
+      "official_to_strict_final_changed": 14,
+      "official_to_typed_final_changed": 14,
+      "physics_final_accuracy": 0.1891891891891892,
+      "repaired_accuracy": 0.1850941850941851,
+      "rows": 2442,
+      "split": "all",
+      "strict_final_accuracy": 0.18755118755118755,
+      "typed_final_accuracy": 0.18755118755118755,
+      "typed_final_only_accepts": 11,
+      "typed_final_only_vs_global": 0,
+      "typed_final_to_global_changed": 0,
+      "typed_final_to_robust_final_changed": 0,
+      "typed_global_accuracy": 0.18755118755118755,
+      "typed_global_only_vs_final": 0,
+      "typed_robust_final_accuracy": 0.18755118755118755
+    },
+    {
+      "core_final_accuracy": 0.27927927927927926,
+      "delta_core_final_minus_official": -0.004095004095004129,
+      "delta_physics_final_minus_official": 0.008599508599508587,
+      "delta_strict_final_minus_official": 0.005323505323505284,
+      "delta_typed_final_minus_official": 0.005323505323505284,
+      "delta_typed_global_minus_typed_final": -0.199017199017199,
+      "model": "Gemini-2.5-Pro",
+      "official_accuracy": 0.2833742833742834,
+      "official_only_accepts": 4,
+      "official_to_core_final_changed": 40,
+      "official_to_physics_final_changed": 23,
+      "official_to_strict_final_changed": 21,
+      "official_to_typed_final_changed": 21,
+      "physics_final_accuracy": 0.291973791973792,
+      "repaired_accuracy": 0.28501228501228504,
+      "rows": 2442,
+      "split": "all",
+      "strict_final_accuracy": 0.28869778869778867,
+      "typed_final_accuracy": 0.28869778869778867,
+      "typed_final_only_accepts": 17,
+      "typed_final_only_vs_global": 486,
+      "typed_final_to_global_changed": 486,
+      "typed_final_to_robust_final_changed": 0,
+      "typed_global_accuracy": 0.08968058968058969,
+      "typed_global_only_vs_final": 0,
+      "typed_robust_final_accuracy": 0.28869778869778867
+    }
+  ],
+  "models": [
+    "GPT-5",
+    "Gemini-2.5-Pro"
+  ],
+  "official_only_records": 7,
+  "official_only_typed_rejection_reasons": {
+    "missing_unit": 1,
+    "multiple_inconsistent_quantities": 4,
+    "unknown_or_wrong_unit": 2
+  },
+  "official_typed_final_changed_records": 35,
+  "official_typed_final_changed_unique_rows": 33,
+  "official_typed_final_transition_counts": {
+    "00": 3714,
+    "01": 28,
+    "10": 7,
+    "11": 1135
+  },
+  "policy_definitions": {
+    "core_final": "released final-segment extraction, typed unordered alternatives, closed intervals, token-safe matching, and only source-declared unit spellings; any valid extracted quantity suffices",
+    "official": "released final-segment extraction plus first-clock/last-numeric legacy matching",
+    "physics_final": "Core-final plus registered same-dimension unit aliases and multiplicative or affine conversion; any valid extracted quantity suffices",
+    "repaired": "official policy plus numeric-string endpoint repair only",
+    "strict_final": "Physics-final plus all-extracted-expected-type-quantities-valid aggregation",
+    "typed_final": "backward-compatible alias of Strict-final",
+    "typed_global": "whole-response typed all-extracted-quantities-valid matching; sensitivity analysis only",
+    "typed_robust_final": "extended deterministic Answer/Reading/boxed extraction followed by typed all-extracted-quantities-valid matching"
+  },
+  "ranking_sensitivity": [
+    {
+      "policies": {
+        "core_final": {
+          "accuracy": {
+            "GPT-5": 0.18946540880503146,
+            "Gemini-2.5-Pro": 0.29638364779874216
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "official": {
+          "accuracy": {
+            "GPT-5": 0.19811320754716982,
+            "Gemini-2.5-Pro": 0.3018867924528302
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "physics_final": {
+          "accuracy": {
+            "GPT-5": 0.20518867924528303,
+            "Gemini-2.5-Pro": 0.31446540880503143
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "repaired": {
+          "accuracy": {
+            "GPT-5": 0.19968553459119498,
+            "Gemini-2.5-Pro": 0.3050314465408805
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "strict_final": {
+          "accuracy": {
+            "GPT-5": 0.2028301886792453,
+            "Gemini-2.5-Pro": 0.31053459119496857
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "typed_final": {
+          "accuracy": {
+            "GPT-5": 0.2028301886792453,
+            "Gemini-2.5-Pro": 0.31053459119496857
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "typed_global": {
+          "accuracy": {
+            "GPT-5": 0.2028301886792453,
+            "Gemini-2.5-Pro": 0.09119496855345911
+          },
+          "order": [
+            "GPT-5",
+            "Gemini-2.5-Pro"
+          ]
+        },
+        "typed_robust_final": {
+          "accuracy": {
+            "GPT-5": 0.2028301886792453,
+            "Gemini-2.5-Pro": 0.31053459119496857
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        }
+      },
+      "split": "real_world"
+    },
+    {
+      "policies": {
+        "core_final": {
+          "accuracy": {
+            "GPT-5": 0.1700854700854701,
+            "Gemini-2.5-Pro": 0.2606837606837607
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "official": {
+          "accuracy": {
+            "GPT-5": 0.16923076923076924,
+            "Gemini-2.5-Pro": 0.26324786324786326
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "physics_final": {
+          "accuracy": {
+            "GPT-5": 0.1717948717948718,
+            "Gemini-2.5-Pro": 0.2675213675213675
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "repaired": {
+          "accuracy": {
+            "GPT-5": 0.16923076923076924,
+            "Gemini-2.5-Pro": 0.26324786324786326
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "strict_final": {
+          "accuracy": {
+            "GPT-5": 0.17094017094017094,
+            "Gemini-2.5-Pro": 0.26495726495726496
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "typed_final": {
+          "accuracy": {
+            "GPT-5": 0.17094017094017094,
+            "Gemini-2.5-Pro": 0.26495726495726496
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "typed_global": {
+          "accuracy": {
+            "GPT-5": 0.17094017094017094,
+            "Gemini-2.5-Pro": 0.08803418803418804
+          },
+          "order": [
+            "GPT-5",
+            "Gemini-2.5-Pro"
+          ]
+        },
+        "typed_robust_final": {
+          "accuracy": {
+            "GPT-5": 0.17094017094017094,
+            "Gemini-2.5-Pro": 0.26495726495726496
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        }
+      },
+      "split": "synthetic_test"
+    },
+    {
+      "policies": {
+        "core_final": {
+          "accuracy": {
+            "GPT-5": 0.18018018018018017,
+            "Gemini-2.5-Pro": 0.27927927927927926
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "official": {
+          "accuracy": {
+            "GPT-5": 0.18427518427518427,
+            "Gemini-2.5-Pro": 0.2833742833742834
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "physics_final": {
+          "accuracy": {
+            "GPT-5": 0.1891891891891892,
+            "Gemini-2.5-Pro": 0.291973791973792
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "repaired": {
+          "accuracy": {
+            "GPT-5": 0.1850941850941851,
+            "Gemini-2.5-Pro": 0.28501228501228504
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "strict_final": {
+          "accuracy": {
+            "GPT-5": 0.18755118755118755,
+            "Gemini-2.5-Pro": 0.28869778869778867
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "typed_final": {
+          "accuracy": {
+            "GPT-5": 0.18755118755118755,
+            "Gemini-2.5-Pro": 0.28869778869778867
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        },
+        "typed_global": {
+          "accuracy": {
+            "GPT-5": 0.18755118755118755,
+            "Gemini-2.5-Pro": 0.08968058968058969
+          },
+          "order": [
+            "GPT-5",
+            "Gemini-2.5-Pro"
+          ]
+        },
+        "typed_robust_final": {
+          "accuracy": {
+            "GPT-5": 0.18755118755118755,
+            "Gemini-2.5-Pro": 0.28869778869778867
+          },
+          "order": [
+            "Gemini-2.5-Pro",
+            "GPT-5"
+          ]
+        }
+      },
+      "split": "all"
+    }
+  ],
+  "release_commit": "d5bb8652dbde6b1b5507f89d37f73993af28b830",
+  "source_files": [
+    {
+      "bytes": 3636076,
+      "model": "Gemini-2.5-Pro",
+      "path": "result_example/gemini-2.5-pro_real.json",
+      "rows": 1272,
+      "sha256": "6e54ef76b8ebddeaeb170ad9ecaf8b60394ffd5cae270ac34b9ad2206381bd33",
+      "split": "real_world"
+    },
+    {
+      "bytes": 3542181,
+      "model": "Gemini-2.5-Pro",
+      "path": "result_example/gemini-2.5-pro_syth.json",
+      "rows": 1170,
+      "sha256": "540a1e3a99dd7702fcdd2dd9dcd062cf01dd85f880e8efd3fd88b0691748e435",
+      "split": "synthetic_test"
+    },
+    {
+      "bytes": 3328510,
+      "model": "GPT-5",
+      "path": "result_example/gpt-5_real.json",
+      "rows": 1272,
+      "sha256": "a8155fc844aa9f93c100a63937516bf46aa45e94fbeb87402e354d3e57e0b9d1",
+      "split": "real_world"
+    },
+    {
+      "bytes": 3265596,
+      "model": "GPT-5",
+      "path": "result_example/gpt-5_syth.json",
+      "rows": 1170,
+      "sha256": "e5570e186cf538cc98cefd2436399ef52f84257c283bf33f17a53a9bba587814",
+      "split": "synthetic_test"
+    }
+  ],
+  "typed_final_global_changed_records": 486,
+  "typed_final_global_changed_unique_rows": 486,
+  "typed_final_global_transition_counts": {
+    "00": 3721,
+    "10": 486,
+    "11": 677
+  },
+  "typed_final_only_already_fixed_by_narrow_repair": 6,
+  "typed_final_only_beyond_narrow_repair": 22,
+  "typed_final_only_records": 28,
+  "typed_final_robust_final_transition_counts": {
+    "00": 3721,
+    "11": 1163
+  },
+  "unique_benchmark_rows": 2442
+}

@@ -1,0 +1,16 @@
+{
+  "row_count": 2442,
+  "schema": "evalgauge-dataset-manifest-v1",
+  "sources": [
+    {
+      "path": "real_world.parquet",
+      "rows": 1272,
+      "sha256": "8c0527ab972376bee9bcc363c75bc8f77ba3177b9b3360aea462aa5fa79fb449"
+    },
+    {
+      "path": "synthetic_test.parquet",
+      "rows": 1170,
+      "sha256": "ec292129765d4abbea07f7b8866cc5eee183b409f5334e9ef2f6ce25e4601750"
+    }
+  ]
+}

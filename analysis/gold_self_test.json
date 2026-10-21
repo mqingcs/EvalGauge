@@ -1,0 +1,30 @@
+{
+  "branch_count": 2887,
+  "canonical_failures_by_evaluator": {
+    "official": 443,
+    "repaired": 429,
+    "type_safe": 0
+  },
+  "metrics": [
+    {
+      "canonical_contract_acceptance_rate": 0.8465535157603048,
+      "evaluator": "official",
+      "source_witness_rate": 0.9612054035330794
+    },
+    {
+      "canonical_contract_acceptance_rate": 0.8514028403186699,
+      "evaluator": "repaired",
+      "source_witness_rate": 0.9660547280914444
+    },
+    {
+      "canonical_contract_acceptance_rate": 1.0,
+      "evaluator": "type-safe",
+      "source_witness_rate": 1.0
+    }
+  ],
+  "source_witness_failures_by_evaluator": {
+    "official": 112,
+    "repaired": 98,
+    "type_safe": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "ChartQAPro",
+  "dataset": {
+    "commit": "e27c2874825874d6767d2bbc538ed4f0dc2c64c2",
+    "compact_metadata_sha256": "7912e3bf9e40abebbd5f384cc98c6312e4bd0f7f0f19f57b53af827f4ef23f0c",
+    "full_parquet_sha256": "feb03a5579e49114b45350b75aed7f674e285f795a425c83e22f400095c91489",
+    "license": "MIT",
+    "repository": "https://huggingface.co/datasets/ahmed-masry/ChartQAPro"
+  },
+  "evaluators": [
+    {
+      "commit": "4b422c658270aff1d3105fd0fb39b1dd5de9f08c",
+      "license": "MIT",
+      "path": "frozen/xbench/chartqapro/repository_evaluator.py",
+      "repository": "https://github.com/vis-nlp/ChartQAPro",
+      "sha256": "fe21d33f076a394765935b6231c2b918c321d4d197d618374ab2ab6b2cc96a71"
+    },
+    {
+      "commit": "fd09032341aed9f1e85b761745154299e13f50c0",
+      "license": "Apache-2.0",
+      "path": "frozen/xbench/chartqapro/vlmevalkit_chartqapro_utils.py",
+      "repository": "https://github.com/open-compass/VLMEvalKit",
+      "sha256": "9bfa75feb8c70341f788a7d85095df9a18cca08c04a7ab793d802b66afd2db83"
+    }
+  ],
+  "schema": "evalgauge-xbench-frozen-source-v1"
+}

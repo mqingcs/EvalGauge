@@ -1,0 +1,18 @@
+{
+  "audit_date": "2026-08-15",
+  "boundary_policy": "closed_intervals",
+  "decimal_semantics": "python_decimal_from_source_text",
+  "locale_policy": "decimal_comma_rejected_without_explicit_locale_contract",
+  "metamorphic_relation_ids": [
+    "MR-01", "MR-02", "MR-03", "MR-04", "MR-05", "MR-06",
+    "MR-07", "MR-08", "MR-09", "MR-10", "MR-11", "MR-12",
+    "MR-13", "MR-14", "MR-15", "MR-16", "MR-17", "MR-18",
+    "MR-19", "MR-20", "MR-21", "MR-22", "MR-23", "MR-24"
+  ],
+  "multi_value_policy": "all_extracted_quantities_must_match_a_legal_branch",
+  "negative_generation_policy": "Generate algebraic near misses, then retain only candidates rejected by the complete union of typed legal branches.",
+  "property_fuzz_seed": 20260815,
+  "reference_suite_interpretation": "Zero reference violations measure implementation closure on the generated contract suite; they are not an independent estimate of real-world parser error.",
+  "semantic_types": ["numeric_quantity", "clock_time"],
+  "unit_conversion_policy": "Only registered same-dimension conversions marked conversion_safe are accepted."
+}

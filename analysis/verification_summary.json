@@ -1,0 +1,136 @@
+{
+  "anonymity_and_secret_scan": {
+    "core_artifact_matches": 0,
+    "patterns": [
+      "local username and absolute home path",
+      "provider credential formats",
+      "authorization header formats"
+    ],
+    "scope": "analysis, artifacts, data, frozen, paper, src, tests, scripts, and top-level project files"
+  },
+  "audit_row_count": 2442,
+  "cross_benchmark": {
+    "chartqapro_cases": 9093,
+    "chartqapro_rows": 1948,
+    "combined_generated_cases": 90871,
+    "combined_public_rows": 4390,
+    "reference_suite_conformance": "90871/90871"
+  },
+  "metamorphic_relation_families_present": 24,
+  "manual_transition_review": {
+    "adjudicated_ambiguous": 1,
+    "adjudicated_accept": 20,
+    "adjudicated_reject": 14,
+    "adjudication_count": 3,
+    "case_count": 35,
+    "core_alignment": "24/34",
+    "finalized_sop_cohen_kappa": 0.8255813953488371,
+    "finalized_sop_exact_agreement": "32/35",
+    "reviewer_a_count": 35,
+    "reviewer_b_count": 35,
+    "status": "complete"
+  },
+  "quick_verification": {
+    "generated_cases": {
+      "measurebench": 81778,
+      "chartqapro": 9093,
+      "combined": 90871,
+      "reference_conformance": "90871/90871"
+    },
+    "upstream_parity": {
+      "measurebench": 88189,
+      "chartqapro": 18186,
+      "combined": 106375,
+      "mismatches": 0
+    },
+    "mr12": {
+      "flips": 168,
+      "rows": 84,
+      "truncated_alternatives": 86
+    },
+    "invalid_credit": {
+      "measurebench": "2612/37212",
+      "chartqapro": "760/3170"
+    },
+    "released_predictions": {
+      "answers": 4884,
+      "changed_labels": 35,
+      "changed_rows": 33
+    },
+    "profile_ladder": {
+      "official_to_core": 68,
+      "core_to_physics": 53,
+      "physics_to_strict": 12
+    },
+    "dual_review": {
+      "agreement": "32/35",
+      "kappa": 0.826,
+      "core_alignment": "24/34",
+      "source_core": "14/19",
+      "safety_strict": "3/4",
+      "physics_extension": "2/10",
+      "source_issues": 2,
+      "sop_returned": 7,
+      "verdicts": "20/14/1"
+    },
+    "contemporary_transfer": {
+      "answers": 637,
+      "changed_labels": 9
+    },
+    "extraction_sensitivity": {
+      "changed_labels": 486,
+      "ranking_reversal": true
+    }
+  },
+  "paper": {
+    "content_pages": 11,
+    "format": "MMM 2027 LNCS, A4",
+    "pages": 13,
+    "pdf_text_words": 4129,
+    "reference_pages": 2,
+    "rendered_pages_visually_reviewed": 13,
+    "undefined_citations_or_references": 0,
+    "overfull_hboxes": 0,
+    "overfull_vboxes": 0,
+    "type3_fonts": 0,
+    "nonembedded_fonts": 0,
+    "visible_clipping_or_overlap": 0
+  },
+  "property_fuzz": {
+    "examples": 550,
+    "seed": 20260815,
+    "status": "passed"
+  },
+  "public_prediction_rescoring": {
+    "answers": 4884,
+    "benchmark_rows": 2442,
+    "official_typed_final_changed_labels": 35,
+    "status": "complete"
+  },
+  "public_transition_taxonomy": {
+    "annotation_ambiguity": 1,
+    "physics_equivalent_extension": 11,
+    "safety_strict_policy": 4,
+    "source_declared_core": 19,
+    "status": "complete"
+  },
+  "contemporary_direct_output_transfer": {
+    "answers": 637,
+    "benchmark_rows": 149,
+    "changed_labels": 9,
+    "models": 3,
+    "status": "complete"
+  },
+  "ruff": "passed",
+  "test_suite": {
+    "passed": 50,
+    "failed": 0
+  },
+  "upstream_parity": {
+    "chartqapro_executions": 18186,
+    "combined_executions": 106375,
+    "executions": 88189,
+    "mismatches": 0,
+    "status": "passed"
+  }
+}

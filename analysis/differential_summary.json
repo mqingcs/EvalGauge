@@ -1,0 +1,87 @@
+{
+  "evaluator_metrics": [
+    {
+      "affected_rows": 2442,
+      "canonical_contract_acceptance_rate": 0.8465535157603048,
+      "contract_violation_coverage": 1.0,
+      "evaluator": "official",
+      "false_acceptance_rate": 0.07019241105019886,
+      "false_rejection_rate": 0.2603329892743347,
+      "gold_self_consistency_rate": 0.9612054035330794,
+      "metamorphic_invariance_rate": 0.8547547457703182,
+      "positive_acceptance_rate": 0.7396670107256653
+    },
+    {
+      "affected_rows": 2442,
+      "canonical_contract_acceptance_rate": 0.8514028403186699,
+      "contract_violation_coverage": 1.0,
+      "evaluator": "repaired",
+      "false_acceptance_rate": 0.07024615715360637,
+      "false_rejection_rate": 0.2119553022483508,
+      "gold_self_consistency_rate": 0.9660547280914444,
+      "metamorphic_invariance_rate": 0.8994300587892116,
+      "positive_acceptance_rate": 0.7880446977516492
+    },
+    {
+      "affected_rows": 0,
+      "canonical_contract_acceptance_rate": 1.0,
+      "contract_violation_coverage": 0.0,
+      "evaluator": "type-safe",
+      "false_acceptance_rate": 0.0,
+      "false_rejection_rate": 0.0,
+      "gold_self_consistency_rate": 1.0,
+      "metamorphic_invariance_rate": 1.0,
+      "positive_acceptance_rate": 1.0
+    }
+  ],
+  "transition_matrix": [
+    {
+      "canonical_cases": 0,
+      "class": "stable_rejection",
+      "negative_cases": 34598,
+      "positive_cases": 0,
+      "total": 34598,
+      "transition": "000"
+    },
+    {
+      "canonical_cases": 429,
+      "class": "both_legacy_false_rejection",
+      "negative_cases": 0,
+      "positive_cases": 9446,
+      "total": 9875,
+      "transition": "001"
+    },
+    {
+      "canonical_cases": 0,
+      "class": "repaired_over_acceptance",
+      "negative_cases": 2,
+      "positive_cases": 0,
+      "total": 2,
+      "transition": "010"
+    },
+    {
+      "canonical_cases": 14,
+      "class": "official_false_rejection",
+      "negative_cases": 0,
+      "positive_cases": 2156,
+      "total": 2170,
+      "transition": "011"
+    },
+    {
+      "canonical_cases": 0,
+      "class": "shared_false_acceptance",
+      "negative_cases": 2612,
+      "positive_cases": 0,
+      "total": 2612,
+      "transition": "110"
+    },
+    {
+      "canonical_cases": 2444,
+      "class": "stable_acceptance",
+      "negative_cases": 0,
+      "positive_cases": 32964,
+      "total": 35408,
+      "transition": "111"
+    }
+  ]
+}

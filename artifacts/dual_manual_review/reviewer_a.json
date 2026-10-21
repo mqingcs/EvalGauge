@@ -1,0 +1,278 @@
+{
+  "case_count": 35,
+  "protocol": {
+    "hidden": [
+      "compiled_contract",
+      "official_score",
+      "strict_score",
+      "policy_name",
+      "fault_attribution",
+      "other_reviewer_verdict"
+    ],
+    "visible": [
+      "image",
+      "question",
+      "raw_released_annotation",
+      "benchmark_instruction",
+      "model_response"
+    ]
+  },
+  "reviewed_count": 35,
+  "reviews": [
+    {
+      "case_id": "transition-01",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:02:31.435993+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-02",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:40:34.224615+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-03",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:05:43.433452+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-04",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:05:06.268553+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-05",
+      "disagreement_category": null,
+      "note": "本题原图过于模糊",
+      "reviewed_at": "2026-08-24T13:40:58.078910+00:00",
+      "source_issue": true,
+      "verdict": "ambiguous"
+    },
+    {
+      "case_id": "transition-06",
+      "disagreement_category": null,
+      "note": "",
+      "reviewed_at": "2026-08-24T13:39:50.283236+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-07",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:45:22.481015+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-08",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:40:05.305898+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-09",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:39:49.627664+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-10",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:46:56.459532+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-11",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:49:29.278769+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-12",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:05:56.691372+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-13",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:47:32.129053+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-14",
+      "disagreement_category": null,
+      "note": "",
+      "reviewed_at": "2026-08-24T13:39:20.215377+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-15",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:43:28.350487+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-16",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:47:22.411391+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-17",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:45:02.340088+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-18",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:05:59.736196+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-19",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:40:17.166826+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-20",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:41:45.045882+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-21",
+      "disagreement_category": null,
+      "note": "可算对，建议这类“正好落在某个整数上”的区间写成关于那个整数对称的，例如79-81，而不是80-81",
+      "reviewed_at": "2026-08-24T13:40:53.262442+00:00",
+      "source_issue": true,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-22",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:00:51.621169+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-23",
+      "disagreement_category": null,
+      "note": "",
+      "reviewed_at": "2026-08-24T13:39:37.813454+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-24",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:43:20.722195+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-25",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:39:32.667198+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-26",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:02:26.638713+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-27",
+      "disagreement_category": null,
+      "note": "原始intervals区间错误，应为68-72（70左右）",
+      "reviewed_at": "2026-08-24T13:40:18.162022+00:00",
+      "source_issue": true,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-28",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:47:02.941760+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-29",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:05:47.844004+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-30",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:40:21.565242+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-31",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:43:31.817484+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-32",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:46:44.251903+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-33",
+      "note": "",
+      "reviewed_at": "2026-08-24T12:41:43.526481+00:00",
+      "source_issue": false,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-34",
+      "disagreement_category": null,
+      "note": "原题目华氏度的读数确实是76°F左右，原始标注有误",
+      "reviewed_at": "2026-08-24T13:40:30.262501+00:00",
+      "source_issue": true,
+      "verdict": "accept"
+    },
+    {
+      "case_id": "transition-35",
+      "note": "",
+      "reviewed_at": "2026-08-24T13:06:09.765662+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    }
+  ],
+  "role": "reviewer_a",
+  "schema": "evalgauge-independent-manual-review-v2",
+  "updated_at": "2026-08-24T13:40:58.078934+00:00"
+}

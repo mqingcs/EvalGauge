@@ -1,0 +1,5 @@
+core_final_full,delta_type_safe_minus_official,error_pool_contamination,experiment,model,n_calls,n_rows,official_errors,official_errors_corrected,official_false_credits,official_full,physics_final_full,repaired_full,strict_final_full,type_safe_full
+0.46153846153846156,0.015384615384615385,0.028409090909090908,round3/generated/end_to_end_holdout_direct5::holdout_direct_measurement::end-to-end-holdout-direct5-v1,doubao-seed-2.1-turbo,325,65,176,5,0,0.4584615384615385,0.47692307692307695,0.47384615384615386,0.47384615384615386,0.47384615384615386
+0.4375,0.00833333333333336,0.014598540145985401,round3/generated/fresh_doubao_direct_repeats::direct_measurement::fresh-direct-repeats-v1,doubao-seed-2.1-turbo,240,48,137,2,0,0.42916666666666664,0.4375,0.42916666666666664,0.4375,0.4375
+0.4722222222222222,-0.055555555555555525,0.0,round1_gate::direct,gemini-3.6-flash,36,36,20,0,2,0.4444444444444444,0.5,0.4444444444444444,0.3888888888888889,0.3888888888888889
+0.25,0.0,0.0,round1_gate::direct,mlx-community/Qwen3-VL-8B-Instruct-4bit,36,36,27,0,0,0.25,0.25,0.25,0.25,0.25

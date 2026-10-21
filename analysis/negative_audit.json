@@ -1,0 +1,115 @@
+{
+  "by_relation": [
+    {
+      "applicable_rows": 36,
+      "cases": 41,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.0,
+      "relation_id": "MR-03",
+      "relation_name": "zeros and explicit sign",
+      "repaired_far": 0.0,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 2054,
+      "cases": 4292,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.0006989748369058714,
+      "relation_id": "MR-13",
+      "relation_name": "inclusive boundaries",
+      "repaired_far": 0.0006989748369058714,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 2442,
+      "cases": 2887,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.0006927606511950121,
+      "relation_id": "MR-14",
+      "relation_name": "clock-number separation",
+      "repaired_far": 0.0006927606511950121,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 1973,
+      "cases": 2269,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.0,
+      "relation_id": "MR-15",
+      "relation_name": "right number wrong dimension",
+      "repaired_far": 0.0,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 1744,
+      "cases": 2039,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.12211868563021089,
+      "relation_id": "MR-16",
+      "relation_name": "wrong same-dimension conversion",
+      "repaired_far": 0.12211868563021089,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 2048,
+      "cases": 4665,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.0008574490889603429,
+      "relation_id": "MR-17",
+      "relation_name": "SI-prefix factor error",
+      "repaired_far": 0.0008574490889603429,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 2442,
+      "cases": 2683,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.16846813268729036,
+      "relation_id": "MR-18",
+      "relation_name": "multi-value injection",
+      "repaired_far": 0.16846813268729036,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 1973,
+      "cases": 2269,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.0,
+      "relation_id": "MR-19",
+      "relation_name": "unit presence contract",
+      "repaired_far": 0.0,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 2442,
+      "cases": 12287,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.0001627736632212908,
+      "relation_id": "MR-20",
+      "relation_name": "parse failure and abstention",
+      "repaired_far": 0.0001627736632212908,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 1417,
+      "cases": 1568,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.0012755102040816326,
+      "relation_id": "MR-21",
+      "relation_name": "locale ambiguity",
+      "repaired_far": 0.0012755102040816326,
+      "type_safe_far": 0.0
+    },
+    {
+      "applicable_rows": 1916,
+      "cases": 2212,
+      "claim_class": "invalid_answer_safety",
+      "official_far": 0.8580470162748643,
+      "relation_id": "MR-22",
+      "relation_name": "unit token boundaries",
+      "repaired_far": 0.8589511754068716,
+      "type_safe_far": 0.0
+    }
+  ],
+  "case_count": 37212
+}

@@ -1,0 +1,44 @@
+{
+  "by_split": [
+    {
+      "clock_rows": 118,
+      "multi_interval_rows": 295,
+      "numeric_string_rows": 14,
+      "rows": 1272,
+      "split": "real_world"
+    },
+    {
+      "clock_rows": 270,
+      "multi_interval_rows": 143,
+      "numeric_string_rows": 0,
+      "rows": 1170,
+      "split": "synthetic_test"
+    }
+  ],
+  "clock_endpoints": 1074,
+  "clock_rows": 388,
+  "compiler_warning_counts": {
+    "flat_unit_list_broadcast_across_alternatives": 141,
+    "noncanonical_signed_clock_component": 3,
+    "numeric_interval_serialized_as_string": 14,
+    "reversed_interval_bounds": 3
+  },
+  "evaluator_counts": {
+    "interval_matching": 2004,
+    "multi_interval_matching": 438
+  },
+  "multi_interval_rows": 438,
+  "numeric_string_endpoints": 28,
+  "numeric_string_rows": 14,
+  "row_count": 2442,
+  "semantic_type_counts": {
+    "clock_time": 388,
+    "numeric_quantity": 2054
+  },
+  "split_counts": {
+    "real_world": 1272,
+    "synthetic_test": 1170
+  },
+  "supported_rows": 2442,
+  "unsupported_rows": 0
+}

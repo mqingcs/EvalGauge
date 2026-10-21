@@ -1,0 +1,112 @@
+{
+  "adjudicated_disagreement_categories": {
+    "source_annotation_or_interval_consistency": 2,
+    "visual_readout_uncertainty": 1
+  },
+  "adjudication_complete": true,
+  "case_count": 35,
+  "disagreement_count": 3,
+  "final_determinate_count": 34,
+  "final_policy_alignment": {
+    "core": {
+      "count": 24,
+      "rate": 0.7058823529411765
+    },
+    "official": {
+      "count": 15,
+      "rate": 0.4411764705882353
+    },
+    "physics": {
+      "count": 17,
+      "rate": 0.5
+    },
+    "repaired": {
+      "count": 21,
+      "rate": 0.6176470588235294
+    },
+    "strict": {
+      "count": 19,
+      "rate": 0.5588235294117647
+    }
+  },
+  "final_support_by_claim_profile": {
+    "annotation_ambiguity": {
+      "determinate": 1,
+      "supports_core": 0,
+      "supports_official": 1,
+      "supports_physics": 0,
+      "supports_repaired": 1,
+      "supports_strict": 0
+    },
+    "physics_equivalent_extension": {
+      "determinate": 10,
+      "supports_core": 8,
+      "supports_official": 8,
+      "supports_physics": 2,
+      "supports_repaired": 8,
+      "supports_strict": 2
+    },
+    "safety_strict_policy": {
+      "determinate": 4,
+      "supports_core": 2,
+      "supports_official": 1,
+      "supports_physics": 1,
+      "supports_repaired": 1,
+      "supports_strict": 3
+    },
+    "source_declared_core": {
+      "determinate": 19,
+      "supports_core": 14,
+      "supports_official": 5,
+      "supports_physics": 14,
+      "supports_repaired": 11,
+      "supports_strict": 14
+    }
+  },
+  "final_supports_official": 15,
+  "final_supports_strict": 19,
+  "final_verdict_counts": {
+    "accept": 20,
+    "ambiguous": 1,
+    "reject": 14
+  },
+  "finalized_sop_pre_adjudication_cohen_kappa_three_way": 0.8255813953488371,
+  "finalized_sop_pre_adjudication_exact_agreement_count": 32,
+  "finalized_sop_pre_adjudication_exact_agreement_rate": 0.9142857142857143,
+  "independently_flagged_source_issue_case_ids": [
+    "transition-27",
+    "transition-34"
+  ],
+  "independently_flagged_source_issue_count": 2,
+  "protocol_return_case_count": 7,
+  "protocol_return_case_ids": [
+    "transition-05",
+    "transition-06",
+    "transition-14",
+    "transition-21",
+    "transition-23",
+    "transition-27",
+    "transition-34"
+  ],
+  "provisional_first_pass_cohen_kappa_three_way": 0.6629213483146068,
+  "provisional_first_pass_exact_agreement_count": 29,
+  "provisional_first_pass_exact_agreement_rate": 0.8285714285714286,
+  "reviewer_a_source_issue_count": 4,
+  "reviewer_a_verdict_counts": {
+    "accept": 21,
+    "ambiguous": 1,
+    "reject": 13
+  },
+  "reviewer_b_source_issue_count": 3,
+  "reviewer_b_verdict_counts": {
+    "accept": 21,
+    "reject": 14
+  },
+  "schema": "evalgauge-dual-manual-review-analysis-v1",
+  "source_issue_count": 5,
+  "source_issue_exact_agreement_count": 32,
+  "verdict_pair_disagreement_types": {
+    "accept_vs_reject": 2,
+    "ambiguous_vs_reject": 1
+  }
+}

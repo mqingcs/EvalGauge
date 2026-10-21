@@ -1,0 +1,100 @@
+{
+  "benchmark_rows": 2442,
+  "contract_branches": 2887,
+  "historical_answers": 637,
+  "historical_unique_rows": 149,
+  "max_model_score_shift_pp": 1.5384615384615385,
+  "mr12_aligned_flat_unit_rows": 57,
+  "mr12_alternatives_truncated_by_legacy_zip": 86,
+  "mr12_binary_score_flips": 168,
+  "mr12_flat_unit_rows": 141,
+  "mr12_mismatched_flat_unit_rows": 84,
+  "negative_cases": 37212,
+  "official_affected_rows": 2442,
+  "official_invalid_acceptance_case_micro": 0.07019241105019886,
+  "official_invalid_acceptance_relation_macro": 0.10475648209424815,
+  "official_invalid_acceptance_row_macro": 0.09711232408892484,
+  "official_valid_rejection_case_micro": 0.2603329892743347,
+  "official_valid_rejection_relation_macro": 0.29432680253952037,
+  "official_valid_rejection_row_macro": 0.2524790572638906,
+  "positive_cases": 44566,
+  "public_answers": 4884,
+  "public_official_only": 7,
+  "public_official_typed_changed": 35,
+  "public_profile_boundary_transitions": {
+    "contemporary_core_to_physics": {
+      "00": 350,
+      "01": 6,
+      "10": 0,
+      "11": 281
+    },
+    "contemporary_official_to_core": {
+      "00": 355,
+      "01": 5,
+      "10": 1,
+      "11": 276
+    },
+    "contemporary_official_to_strict": {
+      "00": 353,
+      "01": 7,
+      "10": 2,
+      "11": 275
+    },
+    "contemporary_physics_to_strict": {
+      "00": 350,
+      "01": 0,
+      "10": 5,
+      "11": 282
+    },
+    "public_core_to_physics": {
+      "00": 3709,
+      "01": 53,
+      "10": 0,
+      "11": 1122
+    },
+    "public_official_to_core": {
+      "00": 3718,
+      "01": 24,
+      "10": 44,
+      "11": 1098
+    },
+    "public_official_to_strict": {
+      "00": 3714,
+      "01": 28,
+      "10": 7,
+      "11": 1135
+    },
+    "public_physics_to_strict": {
+      "00": 3709,
+      "01": 0,
+      "10": 12,
+      "11": 1163
+    }
+  },
+  "public_typed_only": 28,
+  "public_whole_response_policy_changes": 486,
+  "ranking_groups": 1,
+  "ranking_order_changes": 0,
+  "relation_families_with_official_violation": 15,
+  "upstream_parity_executions": 88189,
+  "upstream_parity_mismatches": 0,
+  "violating_negative_relations": [
+    "MR-13",
+    "MR-14",
+    "MR-16",
+    "MR-17",
+    "MR-18",
+    "MR-20",
+    "MR-21",
+    "MR-22"
+  ],
+  "violating_positive_relations": [
+    "MR-02",
+    "MR-06",
+    "MR-07",
+    "MR-08",
+    "MR-09",
+    "MR-10",
+    "MR-12"
+  ]
+}

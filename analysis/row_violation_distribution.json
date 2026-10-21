@@ -1,0 +1,51 @@
+{
+  "evaluators": {
+    "official": {
+      "distinct_relation_count_distribution": {
+        "0": 2,
+        "1": 626,
+        "2": 186,
+        "3": 178,
+        "4": 1181,
+        "5": 264,
+        "6": 3,
+        "8": 2
+      },
+      "rows_with_any_relation_violation": 2440,
+      "rows_with_any_valid_case_rejection": 2138,
+      "rows_with_canonical_failure": 438,
+      "rows_with_invalid_acceptance": 2019,
+      "rows_with_invariance_failure": 2136,
+      "rows_with_source_witness_failure": 109
+    },
+    "repaired": {
+      "distinct_relation_count_distribution": {
+        "0": 2,
+        "1": 720,
+        "2": 268,
+        "3": 1183,
+        "4": 264,
+        "5": 3,
+        "7": 2
+      },
+      "rows_with_any_relation_violation": 2440,
+      "rows_with_any_valid_case_rejection": 2135,
+      "rows_with_canonical_failure": 424,
+      "rows_with_invalid_acceptance": 2021,
+      "rows_with_invariance_failure": 2133,
+      "rows_with_source_witness_failure": 95
+    },
+    "type_safe": {
+      "distinct_relation_count_distribution": {
+        "0": 2442
+      },
+      "rows_with_any_relation_violation": 0,
+      "rows_with_any_valid_case_rejection": 0,
+      "rows_with_canonical_failure": 0,
+      "rows_with_invalid_acceptance": 0,
+      "rows_with_invariance_failure": 0,
+      "rows_with_source_witness_failure": 0
+    }
+  },
+  "row_count": 2442
+}

@@ -1,0 +1,136 @@
+\section{Relation and Artifact Details}
+\label{app:relations}
+\begin{table}[H]
+\centering
+\caption{Registered relation families. Definitions and cases are in the artifact.}
+\label{tab:relations}
+\scriptsize
+\setlength{\tabcolsep}{2.8pt}
+\begin{tabular}{llll}
+\toprule
+ID & Family & ID & Family\\
+\midrule
+MR-01 & Numeric representation & MR-13 & Boundaries\\
+MR-02 & Scientific notation & MR-14 & Clock/number\\
+MR-03 & Sign and zeros & MR-15 & Wrong dimension\\
+MR-04 & Wrapper & MR-16 & Wrong conversion\\
+MR-05 & Space/punctuation & MR-17 & Prefix/factor\\
+MR-06 & Unicode & MR-18 & Multi-value injection\\
+MR-07 & Unit aliases & MR-19 & Unit presence\\
+MR-08 & Multiplicative conversion & MR-20 & Parse/abstain\\
+MR-09 & Affine conversion & MR-21 & Locale\\
+MR-10 & Interval schema & MR-22 & Token boundary\\
+MR-11 & Exact interval & MR-23 & Compound unit\\
+MR-12 & Alternative permutation & MR-24 & Approximation wrapper\\
+\bottomrule
+\end{tabular}
+\end{table}
+\subsection{ChartQAPro relation registry}
+The portability suite uses one source witness, five valid transformations, and seven contract-breaking probes:
+\begin{table}[H]
+\centering
+\caption{ChartQAPro transfer relations.}
+\label{tab:chartqapro-relations}
+\scriptsize
+\setlength{\tabcolsep}{3.1pt}
+\begin{tabular}{ll@{\hspace{8pt}}ll}
+\toprule
+ID & Family & ID & Family\\
+\midrule
+X-S & Source witness & P1 & Terminal punctuation\\
+P2 & Case stability & P3 & Numeric form\\
+P4 & Percent policy & P5 & List serialization\\
+N1 & Tolerance outside & N2 & Factor ten\\
+N3 & Numeric suffix & N4 & Non-finite\\
+N5 & Exact-type suffix & N6 & List permutation\\
+N7 & Extra list element & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Minimal ChartQAPro failures. Official values are the released soft scores.}
+\label{tab:chartqapro-minimal}
+\scriptsize
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{llll}
+\toprule
+Contract & Probe & Official & Reference\\
+\midrule
+Text source & \texttt{nan} & 0 & 1\\
+List source & \texttt{[Andy, Hunter]} & 0 & 1\\
+Exact fact & \texttt{Falsex} & 0.833 & 0\\
+Numeric 100 & \texttt{100x} & 0.750 & 0\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{ChartQAPro relation-level execution. A failure is a valid case below full score or an invalid case above zero.}
+\label{tab:chartqapro-relation-results}
+\scriptsize
+\setlength{\tabcolsep}{2.8pt}
+\begin{tabular}{lrrr@{\hspace{8pt}}lrrr}
+\toprule
+ID & Cases & Fail & \% & ID & Cases & Fail & \%\\
+\midrule
+X-S & 1,948 & 12 & 0.62 & N1 & 650 & 0 & 0\\
+P1 & 1,948 & 12 & 0.62 & N2 & 650 & 0 & 0\\
+P2 & 1,192 & 12 & 1.01 & N3 & 657 & 452 & 68.80\\
+P3 & 657 & 0 & 0 & N4 & 657 & 0 & 0\\
+P4 & 159 & 0 & 0 & N5 & 522 & 292 & 55.94\\
+P5 & 19 & 12 & 63.16 & N6 & 15 & 2 & 13.33\\
+ & & & & N7 & 19 & 14 & 73.68\\
+\bottomrule
+\end{tabular}
+\end{table}
+\subsection{Fault-locus coverage}
+The shared decomposition in Eq.~(1) yields comparable evidence even when the two score algebras differ:
+\begin{table}[H]
+\centering
+\caption{Observed fault loci across evaluator families.}
+\label{tab:fault-loci}
+\scriptsize
+\setlength{\tabcolsep}{3.0pt}
+\begin{tabular}{lll}
+\toprule
+Locus & MeasureBench & ChartQAPro\\
+\midrule
+Schema & Interval/unit pairing & Unquoted source lists\\
+Extraction & Whole-response sensitivity & Final-answer trimming\\
+Routing & Numeric string $\rightarrow$ clock & Exact flag not forwarded\\
+Algebra & Unit/dimension substring & Numeric $\rightarrow$ ANLS\\
+Aggregation & Alternative/multi-value order & Ordered soft list mean\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Adapter execution workflow}
+For each public row, an adapter (1) compiles legal branches and its extraction, type, algebra, container, and aggregation policies; (2) selects only applicable registered relations; (3) instantiates a source witness plus valid and contract-breaking follow-ups; (4) executes the released upstream scorer and reference contract independently; and (5) stores the source identifier, expected label, raw score, exception/accounting state, compiled contract, and decision trace. Aggregation occurs only after every case-level record is materialized, so row, relation, and case views are derived from the same ledger.
+
+The trace schema is intentionally evaluator-neutral: raw and normalized answer, parsed type and values, percent/unit/container policy, tolerance or interval branch, aggregation path, score, warnings, and rejection reason. Benchmark-specific fields remain in adapter metadata rather than entering the shared kernel.
+\subsection{Reproducibility}
+The release contains versioned configurations, Parquet case tables, JSON/JSONL traces, minimal failures, figures, and an HTML report. A single workflow validates the inputs, rebuilds the audit and rescoring, regenerates figures, and runs 550 fixed-seed property examples plus the regression/unit suite. Public prediction files and evaluator sources are linked to documented upstream revisions; derived tables retain stable row and response identifiers.
+
+\subsection{Cross-benchmark probe details}
+The ChartQAPro artifact retains only question/answer metadata needed by the evaluator audit; no image bytes are redistributed. Its compact table preserves the source identifiers for all 1,948 rows. Each of the 9,093 cases stores row identity, relation, expected label, official soft score, reference decision, compiled contract, and scores from both upstream implementations. The deterministic single-process probe completes in 0.92 seconds with 129 MB maximum resident memory on the audit machine. Together with MeasureBench, the artifact contains 90,871 generated decisions and 106,375 upstream comparison executions.
+
+\subsection{Suite accounting}
+The 44,566 positives and 37,212 negatives are stored one case per row with benchmark identity, relation, answer, three evaluator scores, transition, and reference trace. Natural-response tables additionally store Core-final, Physics-final, and Strict-final decisions and traces. Schema cases retain JSON and Python \texttt{repr} forms so list/tuple changes remain observable. The 2,887 source/canonical witnesses are separate.
+
+Applicability is contract-dependent. For example, MR-09 is instantiated only for 213 temperature rows (293 branches), MR-12 for all 438 multi-interval rows (883 branch cases), and MR-23 for 80 compound-unit rows. A relation family is counted as violated only when a positive follow-up changes the official binary score relative to its canonical execution or when a verified negative is accepted. On this rule, seven positive and eight negative families violate official semantics, with no overlap, yielding the reported 15 families.
+
+\subsection{Decision and collection traces}
+The reference trace exposes extraction policy and segment, semantic type, every extracted quantity and span, matched branch, raw and canonical units, normalized value, distance to the closed interval, compiler/parser warnings, and an invalid reason. Legacy exceptions are stored as typed strings alongside the binary score. This makes the 1,534 MR-10 exceptions queryable rather than conflating them with ordinary rejections.
+
+Published-score reproduction covers every released GPT-5 and Gemini-2.5-Pro prediction: $2\times(1{,}272+1{,}170)=4{,}884$. Contemporary transfer is join-bounded: 64 indexed files yield 949 direct-mode records, of which documented aliases link and score 637 responses across 149 rows. The other 312 are preserved in an unlinked ledger and excluded from claims.
+
+\subsection{Extraction-policy sensitivity}
+The three primary profiles feed the exact released final segment to the contract matcher. A robust-final sensitivity adds deterministic \texttt{Final Answer:} and \texttt{Reading:} indicators; it changes zero released binary scores. Whole-response sensitivity deliberately bypasses final extraction and is never presented as the replacement score. It changes 486 Gemini decisions and zero GPT-5 decisions, demonstrating response-style confounding.
+
+\subsection{Reference-evaluator checks}
+Tests cover Decimal and clock round trips, unit conversion, schema/alternative permutation, released and extended final-answer extraction, LaTeX unit wrappers, numeric-string separation, token boundaries, contradictory or non-finite values, mixed fractions, and known failure classes. Direct comparison with upstream behavior covers 88,189 executions. These checks establish reproducibility and generated-suite closure.
+
+The companion artifact includes executable source, all 90,871 generated case-level decisions, released- and contemporary-output traces, the 35-transition taxonomy and manual inspection record, version metadata, a browsable HTML audit, and one-command rebuilds. Three MeasureBench thumbnails used only in Fig.~\ref{fig:teaser} are retained with their source row identifiers; no ChartQAPro image column is redistributed.

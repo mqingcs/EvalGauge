@@ -1,0 +1,12 @@
+applicable_rows,cases,claim_class,official_far,relation_id,relation_name,repaired_far,type_safe_far
+36,41,invalid_answer_safety,0.0,MR-03,zeros and explicit sign,0.0,0.0
+2054,4292,invalid_answer_safety,0.0006989748369058714,MR-13,inclusive boundaries,0.0006989748369058714,0.0
+2442,2887,invalid_answer_safety,0.0006927606511950121,MR-14,clock-number separation,0.0006927606511950121,0.0
+1973,2269,invalid_answer_safety,0.0,MR-15,right number wrong dimension,0.0,0.0
+1744,2039,invalid_answer_safety,0.12211868563021089,MR-16,wrong same-dimension conversion,0.12211868563021089,0.0
+2048,4665,invalid_answer_safety,0.0008574490889603429,MR-17,SI-prefix factor error,0.0008574490889603429,0.0
+2442,2683,invalid_answer_safety,0.16846813268729036,MR-18,multi-value injection,0.16846813268729036,0.0
+1973,2269,invalid_answer_safety,0.0,MR-19,unit presence contract,0.0,0.0
+2442,12287,invalid_answer_safety,0.0001627736632212908,MR-20,parse failure and abstention,0.0001627736632212908,0.0
+1417,1568,invalid_answer_safety,0.0012755102040816326,MR-21,locale ambiguity,0.0012755102040816326,0.0
+1916,2212,invalid_answer_safety,0.8580470162748643,MR-22,unit token boundaries,0.8589511754068716,0.0

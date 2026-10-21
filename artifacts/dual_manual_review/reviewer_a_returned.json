@@ -1,0 +1,55 @@
+{
+  "schema": "evalgauge-returned-review-drafts-v1",
+  "role": "reviewer_a",
+  "returned_for_review": [
+    {
+      "case_id": "transition-05",
+      "note": "本题原图过于模糊",
+      "source_issue": true,
+      "previous_verdict": "ambiguous",
+      "return_reason": "dual-scale item with an ambiguity verdict"
+    },
+    {
+      "case_id": "transition-06",
+      "note": "7psi过度偏离了区间，但0.5可以算对，所以歧义",
+      "source_issue": false,
+      "previous_verdict": "ambiguous",
+      "return_reason": "dual-scale item with an ambiguity verdict"
+    },
+    {
+      "case_id": "transition-14",
+      "note": "",
+      "source_issue": false,
+      "previous_verdict": "accept",
+      "return_reason": "accepted dual-scale response is not inside both released intervals"
+    },
+    {
+      "case_id": "transition-21",
+      "note": "可算对，建议这类“正好落在某个整数上”的区间写成关于那个整数对称的，例如79-81，而不是80-81",
+      "source_issue": false,
+      "previous_verdict": "accept",
+      "return_reason": "accepted dual-scale response is not inside both released intervals"
+    },
+    {
+      "case_id": "transition-23",
+      "note": "如果只对一半算对，则应该接受，如果必须全对则不接受，因为110错了",
+      "source_issue": false,
+      "previous_verdict": "ambiguous",
+      "return_reason": "dual-scale item with an ambiguity verdict"
+    },
+    {
+      "case_id": "transition-27",
+      "note": "原始intervals区间错误，应为68-72（70左右）",
+      "source_issue": true,
+      "previous_verdict": "accept",
+      "return_reason": "accepted dual-scale response is not inside both released intervals"
+    },
+    {
+      "case_id": "transition-34",
+      "note": "原题目华氏度的读数确实是76°F左右，原始标注有误",
+      "source_issue": true,
+      "previous_verdict": "accept",
+      "return_reason": "accepted dual-scale response is not inside both released intervals"
+    }
+  ]
+}

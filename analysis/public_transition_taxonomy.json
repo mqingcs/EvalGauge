@@ -1,0 +1,44 @@
+{
+  "by_profile_and_direction": [
+    {
+      "claim_profile": "annotation_ambiguity",
+      "direction": "official_accept_to_strict_reject",
+      "transitions": 1,
+      "unique_rows": 1
+    },
+    {
+      "claim_profile": "physics_equivalent_extension",
+      "direction": "core_reject_to_physics_accept",
+      "transitions": 11,
+      "unique_rows": 10
+    },
+    {
+      "claim_profile": "safety_strict_policy",
+      "direction": "physics_accept_to_strict_reject",
+      "transitions": 4,
+      "unique_rows": 4
+    },
+    {
+      "claim_profile": "source_declared_core",
+      "direction": "official_accept_to_core_reject",
+      "transitions": 2,
+      "unique_rows": 2
+    },
+    {
+      "claim_profile": "source_declared_core",
+      "direction": "official_reject_to_core_accept",
+      "transitions": 17,
+      "unique_rows": 16
+    }
+  ],
+  "method": "Exhaustive executable-profile audit of the 35 official/Strict-final transitions. Each transition is assigned by the first profile boundary that changes its score: source-declared Core-final, declared Physics-final, or Strict-final aggregation. One known annotation/protocol ambiguity is isolated and not claimed as a correction. This is a complete decision-scope audit, not an independent human accuracy estimate.",
+  "profile_totals": {
+    "annotation_ambiguity": 1,
+    "physics_equivalent_extension": 11,
+    "safety_strict_policy": 4,
+    "source_declared_core": 19
+  },
+  "schema": "evalgauge-public-transition-taxonomy-v1",
+  "transition_count": 35,
+  "unique_rows": 33
+}

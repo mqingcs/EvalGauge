@@ -1,0 +1,47 @@
+{
+  "case_count": 3,
+  "protocol": {
+    "hidden": [
+      "compiled_contract",
+      "official_score",
+      "strict_score",
+      "policy_name",
+      "fault_attribution",
+      "other_reviewer_verdict"
+    ],
+    "visible": [
+      "image",
+      "question",
+      "raw_released_annotation",
+      "benchmark_instruction",
+      "model_response"
+    ]
+  },
+  "reviewed_count": 3,
+  "reviews": [
+    {
+      "case_id": "transition-05",
+      "note": "原图过于模糊，不建议采用",
+      "reviewed_at": "2026-08-24T14:21:02.974320+00:00",
+      "source_issue": true,
+      "verdict": "ambiguous"
+    },
+    {
+      "case_id": "transition-13",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:21:48.297658+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    },
+    {
+      "case_id": "transition-21",
+      "note": "",
+      "reviewed_at": "2026-08-24T14:20:31.553071+00:00",
+      "source_issue": false,
+      "verdict": "reject"
+    }
+  ],
+  "role": "adjudicator",
+  "schema": "evalgauge-independent-manual-review-v2",
+  "updated_at": "2026-08-24T14:21:48.297682+00:00"
+}

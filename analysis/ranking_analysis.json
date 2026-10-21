@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "experiment": "round1_gate::direct",
+      "models": [
+        {
+          "model": "gemini-3.6-flash",
+          "official": 0.4444444444444444,
+          "repaired": 0.4444444444444444,
+          "shared_rows": 36,
+          "type_safe": 0.3888888888888889
+        },
+        {
+          "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+          "official": 0.25,
+          "repaired": 0.25,
+          "shared_rows": 36,
+          "type_safe": 0.25
+        }
+      ],
+      "official_order": [
+        "gemini-3.6-flash",
+        "mlx-community/Qwen3-VL-8B-Instruct-4bit"
+      ],
+      "order_changed": false,
+      "type_safe_order": [
+        "gemini-3.6-flash",
+        "mlx-community/Qwen3-VL-8B-Instruct-4bit"
+      ]
+    }
+  ],
+  "order_changed_groups": 0,
+  "ranking_groups": 1
+}

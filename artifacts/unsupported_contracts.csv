@@ -1,0 +1,3 @@
+observed_unit,normalized_unit,rows,splits,image_types,canonical_units,dimensions,status
+pound per square centimeter,pound per square centimeter,2,real_world,pressure_gauge,,,context_only_or_unsupported
+mm/m²,mm/m2,1,real_world,rain_gauge,,,context_only_or_unsupported
