@@ -53,29 +53,33 @@ Automatic evaluation determines which model outputs count as correct in a scient
 
 For any benchmark row $r$ and model response $y$, **EvalGauge** factors a benchmark scorer into six explicit, auditable stages:
 
-$$S(r, y) = G\!\Big(M\!\big(N(E(y)),\, C(A(r))\big)\Big)$$
+$$
+S(r, y) = G\Big(M\big(N(E(y)),\, C(A(r))\big)\Big)
+$$
 
 where $A$ interprets the raw annotation schema, $C$ compiles legal answers into a typed contract, $E$ extracts the final response segment, $N$ normalizes quantities and units, $M$ compares the parsed candidate against the compiled contract, and $G$ aggregates branch or element scores.
 
 ```mermaid
 flowchart LR
-    A["Released Row r\nAnnotation Schema A(r)"] --> C["Contract Compiler C(A(r))\nQ(τ,d,U,I) | X(t,V) | L(C,π) | T(ϕ)"]
-    C --> GenPos["Valid Probe Generator\nNotation, Units, Containers, Order"]
-    C --> GenNeg["Invalid Probe Generator\nOut-of-Bounds, Wrong Dim, Conflict"]
-    Y["Natural VLM Outputs\n4,884 Public + 637 Contemporary"] --> E["Final-Segment Extractor E(y)\nNormalizer N & Matcher M"]
-    GenPos --> Diff["Differential & Parity Engine\nOfficial vs. Patch vs. Core/Physics/Strict"]
+    A["Released Row r<br/>Annotation Schema A(r)"] --> C["Contract Compiler C(A(r))<br/>Q(τ,d,U,I) | X(t,V) | L(C,π) | T(ϕ)"]
+    C --> GenPos["Valid Probe Generator<br/>Notation, Units, Containers, Order"]
+    C --> GenNeg["Invalid Probe Generator<br/>Out-of-Bounds, Wrong Dim, Conflict"]
+    Y["Natural VLM Outputs<br/>4,884 Public + 637 Contemporary"] --> E["Final-Segment Extractor E(y)<br/>Normalizer N & Matcher M"]
+    GenPos --> Diff["Differential & Parity Engine<br/>Official vs. Patch vs. Core/Physics/Strict"]
     GenNeg --> Diff
     E --> Diff
-    Diff --> Audit["Fault Localization & Blinded Dual Review\n35 Changed Labels (κ = 0.826)"]
+    Diff --> Audit["Fault Localization & Blinded Dual Review<br/>35 Changed Labels (κ = 0.826)"]
 ```
 
 ### The Shared Contract Grammar
 
-$$\mathcal{C} ::= Q(\tau, d, U, I) \;\mid\; X(t, V) \;\mid\; L(\mathcal{C}_{1:m}, \pi) \;\mid\; T(\phi)$$
+$$
+\mathcal{C} ::= Q(\tau, d, U, I) \;\mid\; X(t, V) \;\mid\; L(\mathcal{C}_{1:m}, \pi) \;\mid\; T(\phi)
+$$
 
-- **$Q(\tau, d, U, I)$ — Quantity Contract**: Numeric or clock quantity with value type $\tau \in \{\texttt{decimal}, \texttt{clock}\}$, physical dimension $d$, allowed unit set $U$ (with registered multiplicative $x_b = a x$ and affine temperature $x_b = a x + b$ conversions), and closed intervals $I$.
+- **$Q(\tau, d, U, I)$ — Quantity Contract**: Numeric or clock quantity with value type $\tau \in \lbrace \mathrm{decimal}, \mathrm{clock} \rbrace$, physical dimension $d$, allowed unit set $U$ (with registered multiplicative $x_b = a x$ and affine temperature $x_b = a x + b$ conversions), and closed intervals $I$.
 - **$X(t, V)$ — Exact Typed Contract**: Year, multiple-choice option, or boolean fact $t$ with legal value set $V$ (no ANLS text-similarity fallback leakage).
-- **$L(\mathcal{C}_{1:m}, \pi)$ — Structured List Contract**: Element contracts $\mathcal{C}_{1:m}$ governed by order policy $\pi \in \{\texttt{ordered}, \texttt{unordered}\}$.
+- **$L(\mathcal{C}_{1:m}, \pi)$ — Structured List Contract**: Element contracts $\mathcal{C}_{1:m}$ governed by order policy $\pi \in \lbrace \mathrm{ordered}, \mathrm{unordered} \rbrace$.
 - **$T(\phi)$ — Text Similarity Contract**: Retains a benchmark's native text-similarity threshold $\phi$ (e.g., ANLS) strictly for genuine free-text answers.
 
 <div align="center">
