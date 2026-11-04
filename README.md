@@ -18,7 +18,7 @@
 [![Offline Verify](https://img.shields.io/badge/Quick_Verify-PASS_(%3C3s_CPU)-16A34A?style=for-the-badge)](scripts/verify_release.py)
 [![License](https://img.shields.io/badge/License-MIT-0F172A?style=for-the-badge)](LICENSE)
 
-[**📄 Camera-Ready Paper**](paper/main.pdf) · [**⚡ 30-Second Verification**](#-30-second-offline-verification) · [**🔍 Three Signature Failures**](#-motivation-when-the-scorer-changes-the-definition-of-correctness) · [**📐 Typed Scoring Contracts**](#-typed-scoring-contracts--architecture) · [**📊 Empirical Dashboards**](#-empirical-results--visual-dashboards) · [**👥 Blinded Dual Review**](#-rescoring-4884-released-predictions--blinded-dual-human-review) · [**🗂️ Repository Structure**](#-repository-architecture) · [**📝 Citation**](#-citation)
+[**📄 Camera-Ready Paper**](paper/main.pdf) · [**LaTeX Source ZIP**](paper/EvalGauge_source.zip) · [**⚡ 30-Second Verification**](#-30-second-offline-verification) · [**🔍 Three Signature Failures**](#-motivation-when-the-scorer-changes-the-definition-of-correctness) · [**📐 Typed Scoring Contracts**](#-typed-scoring-contracts--architecture) · [**📊 Empirical Dashboards**](#-empirical-results--visual-dashboards) · [**👥 Blinded Dual Review**](#-rescoring-4884-released-predictions--blinded-dual-human-review) · [**🗂️ Repository Structure**](#-repository-architecture) · [**📝 Citation**](#-citation)
 
 </div>
 
@@ -205,7 +205,7 @@ python3 scripts/verify_release.py
 
 ```bash
 cd paper/mmm2027
-tectonic --outdir .. main.tex
+bash build.sh
 ```
 
 ---

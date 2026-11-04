@@ -1,0 +1,144 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{biten2019stvqa}
+Biten, A.F., Tito, R., Mafla, A., Gomez, L., Rusinol, M., Valveny, E., Jawahar,
+  C.V., Karatzas, D.: Scene text visual question answering. In: Proceedings of
+  the IEEE/CVF International Conference on Computer Vision. pp. 4291--4301
+  (2019)
+
+\bibitem{chen2022reproducibility}
+Chen, Y., Belouadi, J., Eger, S.: Reproducibility issues for {BERT}-based
+  evaluation metrics. In: Proceedings of EMNLP. pp. 2965--2989 (2022).
+  \doi{10.18653/v1/2022.emnlp-main.192}
+
+\bibitem{chen2023unified}
+Chen, Y., Gantt, W., Chen, T., White, A.S., Van~Durme, B.: A unified view of
+  evaluation metrics for structured prediction. In: Proceedings of EMNLP. pp.
+  12868--12882 (2023). \doi{10.18653/v1/2023.emnlp-main.795}
+
+\bibitem{claessen2000quickcheck}
+Claessen, K., Hughes, J.: Quickcheck: A lightweight tool for random testing of
+  haskell programs. In: Proceedings of ICFP. pp. 268--279 (2000).
+  \doi{10.1145/351240.351266}
+
+\bibitem{duan2024vlmevalkit}
+Duan, H., Yang, J., Qiao, Y., Fang, X., Chen, L., Liu, Y., Dong, X., Zang, Y.,
+  Zhang, P., Wang, J., Lin, D., Chen, K.: {VLMEvalKit}: An open-source toolkit
+  for evaluating large multi-modality models. In: Proceedings of the 32nd ACM
+  International Conference on Multimedia. pp. 11198--11201 (2024).
+  \doi{10.1145/3664647.3685520}
+
+\bibitem{measurebenchrepo2026}
+{FlagEval Team}: {MeasureBench}: Official evaluation and public prediction
+  repository. \url{https://github.com/flageval-baai/MeasureBench} (2026),
+  accessed August 2026
+
+\bibitem{huang2025image2text2image}
+Huang, J.H., Zhu, H., Shen, Y., Rudinac, S., Kanoulas, E.: {Image2Text2Image}:
+  A novel framework for label-free evaluation of image-to-text generation with
+  text-to-image diffusion models. In: MultiMedia Modeling. Lecture Notes in
+  Computer Science, vol. 15523, pp. 413--427. Springer (2025).
+  \doi{10.1007/978-981-96-2071-5_30}
+
+\bibitem{lin2026measurebench}
+Lin, F., Liu, Y., Xu, H., Chen, Y., He, Z., Zhao, M., Chen, M.H., Yao, J.G.,
+  Yang, X.: Do vision-language models measure up? benchmarking visual
+  measurement reading with {MeasureBench}. In: Proceedings of the IEEE/CVF
+  Conference on Computer Vision and Pattern Recognition. pp. 38544--38553
+  (2026)
+
+\bibitem{manas2024lave}
+Ma{\~n}as, O., Krojer, B., Agrawal, A.: Improving automatic {VQA} evaluation
+  using large language models. In: Proceedings of the AAAI Conference on
+  Artificial Intelligence. vol.~38, pp. 4171--4179 (2024).
+  \doi{10.1609/aaai.v38i5.28212}
+
+\bibitem{masry2025chartqapro}
+Masry, A., Islam, M.S., Ahmed, M., Bajaj, A., Kabir, F., Kartha, A., Laskar,
+  M.T.R., Rahman, M., Rahman, S., Shahmohammadi, M., Thakkar, M., Parvez, M.R.,
+  Hoque, E., Joty, S.: {ChartQAPro}: A more diverse and challenging benchmark
+  for chart question answering. In: Findings of the Association for
+  Computational Linguistics: ACL 2025. pp. 19123--19151 (2025).
+  \doi{10.18653/v1/2025.findings-acl.978}
+
+\bibitem{masry2022chartqa}
+Masry, A., Long, D.X., Tan, J.Q., Joty, S., Hoque, E.: {ChartQA}: A benchmark
+  for question answering about charts with visual and logical reasoning. In:
+  Findings of the Association for Computational Linguistics: ACL 2022. pp.
+  2263--2279 (2022). \doi{10.18653/v1/2022.findings-acl.177}
+
+\bibitem{mathew2021docvqa}
+Mathew, M., Karatzas, D., Jawahar, C.V.: {DocVQA}: A dataset for {VQA} on
+  document images. In: Proceedings of the IEEE/CVF Winter Conference on
+  Applications of Computer Vision. pp. 2200--2209 (2021)
+
+\bibitem{molfese2025right}
+Molfese, F.M., Moroni, L., Gioffr{\'e}, L., Scir{\`e}, A., Conia, S., Navigli,
+  R.: Right answer, wrong score: Uncovering the inconsistencies of {LLM}
+  evaluation in multiple-choice question answering. In: Findings of the
+  Association for Computational Linguistics: ACL 2025. pp. 18477--18494 (2025).
+  \doi{10.18653/v1/2025.findings-acl.950}
+
+\bibitem{paruchuri2026sameevidence}
+Paruchuri, A., Koyejo, S., Adeli, E.: Same evidence, different answer: Auditing
+  order sensitivity in multimodal large language models. arXiv preprint
+  arXiv:2606.26079  (2026). \doi{10.48550/arXiv.2606.26079},
+  \url{https://arxiv.org/abs/2606.26079}
+
+\bibitem{quan2025scientificvqa}
+Quan, K.A.C., Guinaudeau, C., Satoh, S.: Evaluating {VQA} models' consistency
+  in the scientific domain. In: MultiMedia Modeling. Lecture Notes in Computer
+  Science, vol. 15523, pp. 398--412. Springer (2025).
+  \doi{10.1007/978-981-96-2071-5_29}
+
+\bibitem{ribeiro2020checklist}
+Ribeiro, M.T., Wu, T., Guestrin, C., Singh, S.: Beyond accuracy: Behavioral
+  testing of {NLP} models with {C}heck{L}ist. In: Proceedings of ACL. pp.
+  4902--4912 (2020). \doi{10.18653/v1/2020.acl-main.442}
+
+\bibitem{schlegel2026prsm}
+Schlegel, U., Weeber, F., Lan, J., Seidl, T.: {PRSM}: A measure to evaluate
+  {CLIP}'s robustness against paraphrases. In: MultiMedia Modeling. Lecture
+  Notes in Computer Science, vol. 16415, pp. 72--79. Springer (2026).
+  \doi{10.1007/978-981-95-6963-2_6}
+
+\bibitem{segura2016survey}
+Segura, S., Fraser, G., Sanchez, A.B., Ruiz-Cortes, A.: A survey on metamorphic
+  testing. IEEE Transactions on Software Engineering  \textbf{42}(9),  805--824
+  (2016). \doi{10.1109/TSE.2016.2532875}
+
+\bibitem{tran2026brittleness}
+Tran, A., Rossetto, L.: On the brittleness of {CLIP} text encoders. In:
+  MultiMedia Modeling. Lecture Notes in Computer Science, vol. 16413, pp.
+  361--374. Springer (2026). \doi{10.1007/978-981-95-6957-1_26}
+
+\bibitem{chen2011metamorphic}
+Xie, X., Ho, J., Murphy, C., Kaiser, G., Xu, B., Chen, T.Y.: Testing and
+  validating machine learning classifiers by metamorphic testing. Journal of
+  Systems and Software  \textbf{84}(4),  544--558 (2011).
+  \doi{10.1016/j.jss.2010.11.920}
+
+\bibitem{ye2026vqascore}
+Ye, G., Niu, J., Li, Y., Liang, M., Xue, Z., Shao, Y., Li, Y.: What does your
+  short-answer {VQA} score actually measure? evaluator-dependent instability in
+  multimodal short-answer benchmarks. arXiv preprint arXiv:2607.10240  (2026).
+  \doi{10.48550/arXiv.2607.10240}, \url{https://arxiv.org/abs/2607.10240}
+
+\bibitem{yue2024mmmu}
+Yue, X., Ni, Y., Zhang, K., Zheng, T., Liu, R., Zhang, G., Stevens, S., Jiang,
+  D., Ren, W., Sun, Y., Wei, C., Yu, B., Yuan, R., Sun, R., Yin, M., Zheng, B.,
+  Yang, Z., Liu, Y., Huang, W., Sun, H., Su, Y., Chen, W.: {MMMU}: A massive
+  multi-discipline multimodal understanding and reasoning benchmark for expert
+  {AGI}. In: Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition. pp. 9556--9567 (2024)
+
+\bibitem{zhu2026gaslighting}
+Zhu, B., Yin, H., Chen, J., Jiang, Y.G.: Benchmarking gaslighting negation
+  attacks against reasoning models. In: MultiMedia Modeling. Lecture Notes in
+  Computer Science, vol. 16414, pp. 188--202. Springer (2026).
+  \doi{10.1007/978-981-95-6960-1_14}
+
+\end{thebibliography}
